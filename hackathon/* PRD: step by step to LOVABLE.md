@@ -1,61 +1,49 @@
-# STEP 1 — CREATE THE PROJECT IN LOVABLE
+Aquí tienes los bloques **separados y listos para copiar y pegar en Lovable**, uno por uno. No pegues todos juntos.
 
-Copy and paste this FIRST into Lovable:
+---
+
+# BLOQUE 1 — CREAR PROYECTO Y FIJAR DIRECCIÓN
 
 ```text
 Create a new project called byDebut.
 
-byDebut is NOT a generic AI writing app.
+byDebut is an AI-native narrative creator economy platform.
 
-byDebut is an AI-powered reader engagement platform for independent authors.
+It is NOT:
+- a generic AI writing assistant
+- a chatbot
+- a fanfiction website
+- a productivity SaaS app
 
-The platform transforms books into interactive narrative ecosystems where readers can modify one variable from a story and generate alternate realities using AI.
-
-The goal is to increase reader engagement after finishing a book.
+byDebut allows readers to become narrative creators.
 
 Core concept:
+A user selects a book, changes one important variable in the story, and Gemini generates an alternate world with audience prediction and marketing guidance.
 
-Reader finishes a novel
-↓
-Reader enters byDebut
-↓
-Reader changes ONE variable
-↓
-AI generates an alternate world
-↓
-Reader saves and shares the variation
+Primary message:
+"Change one variable. Create a new world."
 
-IMPORTANT:
-
-Do NOT redesign the product.
-Do NOT simplify the positioning.
-Do NOT convert this into a chatbot or generic storytelling app.
-Do NOT introduce unrelated SaaS productivity features.
-
-The platform must feel:
+The product must feel:
 - cinematic
-- immersive
-- speculative
 - emotional
 - modern
+- immersive
+- simple to understand
 
-The interface must be understandable within 60 seconds.
+Do not redesign the product.
+Do not change the positioning.
+Do not add unrelated features.
+Do not overbuild.
 
-Core product message:
-
-"Change one variable. Create a new world."
+Build only what is requested step by step.
 ```
 
 ---
 
-# STEP 2 — BUILD THE FRONTEND MVP ONLY
-
-After Lovable creates the project, copy and paste this:
+# BLOQUE 2 — FRONTEND MVP
 
 ```text
-Build ONLY the frontend MVP structure first.
-
-Do NOT implement advanced backend logic yet.
+Build only the frontend MVP first.
 
 Create these pages:
 
@@ -63,82 +51,63 @@ Create these pages:
 2. Login / Signup
 3. Books Library
 4. Individual Book Page
-5. Variable Transformation Interface
+5. Variable Transformation Page
 6. Public Variations Gallery
+7. Individual Version Page
 
-UI STYLE REQUIREMENTS:
+Do not connect backend yet.
+Do not connect Gemini yet.
+Do not connect Stripe yet.
 
-The UI must feel:
-- premium
-- cinematic
-- emotionally immersive
-- speculative sci-fi inspired
-- NOT corporate SaaS
-
-Avoid:
-- generic dashboards
-- productivity app appearance
-- chatbot layouts
-
-Landing page hero section:
-
-Headline:
-"Every Book Can Become Another World"
+Landing Page headline:
+"Every Story Can Become Another World"
 
 Subheadline:
-"Change one variable. Generate a new reality. Explore the consequences."
+"Change one variable. Generate a new reality. Discover the audience for your world."
 
-CTA Button:
+CTA:
 "Start Exploring"
 
-The homepage must visually explain this flow:
+Show this simple process visually:
 
 1. Choose a book
 2. Change one variable
-3. AI generates a new world
-4. Share the variation
+3. Gemini generates an alternate world
+4. AI predicts audience interest
+5. Share your version
 
-IMPORTANT:
-Focus ONLY on frontend structure and beautiful UX.
-Do NOT build advanced features yet.
+The design must be cinematic, premium, immersive, and simple.
+Avoid generic SaaS dashboards.
 ```
 
 ---
 
-# STEP 3 — CREATE THE BOOK PAGE EXPERIENCE
-
-After frontend pages exist, paste this:
+# BLOQUE 3 — BOOK PAGE
 
 ```text
-Now improve the individual book page experience.
+Improve the individual book page.
 
-Create a cinematic book universe page.
-
-Example route:
+Route example:
 /book/eternidad-letal
 
-The page must include:
+Each book page must include:
 
-- large book cover
+- book cover
 - title
+- author
 - synopsis
 - central story variable
-- immersive atmosphere
-- "Change a Variable" section
-- existing public variations
+- themes
+- public variations
+- main CTA: "Change a Variable"
 
-IMPORTANT:
-
-The emotional focus must be:
+The emotional question on the page must be:
 "What happens if this changes?"
 
-Add a prominent transformation input box.
+Add a large input box with placeholder:
+"What if immortality only existed for billionaires?"
 
-Example placeholder text:
-
-"What if immortality only existed for the wealthy?"
-
-Add a large CTA button:
+Add button:
 "Generate Alternate World"
 
 The page must feel like entering a narrative universe.
@@ -146,292 +115,369 @@ The page must feel like entering a narrative universe.
 
 ---
 
-# STEP 4 — BUILD THE VARIABLE TRANSFORMATION FLOW
-
-Paste this next:
+# BLOQUE 4 — VARIABLE TRANSFORMATION FLOW
 
 ```text
-Now build the core transformation flow.
+Build the core variable transformation flow.
 
-User Flow:
+User flow:
 
 1. User selects a book
 2. User types one variable change
 3. User clicks "Generate Alternate World"
-4. AI response area appears
-5. User can save or share the variation
-
-IMPORTANT:
-
-This is the CORE LOOP of the platform.
-
-The experience must feel:
-- immediate
-- magical
-- emotionally engaging
-- simple
-
-Do NOT overload the interface.
+4. A generated result area appears
+5. User can save, publish, or share the version
 
 The generated result area must include:
 
 - Alternate World Title
-- Premise
+- New Premise
 - Social Consequences
 - Emotional Consequences
-- Civilization Impact
+- Civilization-Level Impact
+- Audience Interest
+- Suggested Positioning
+- Suggested Marketing Strategy
 
-Keep the UX clean and cinematic.
+Keep the UX simple, cinematic, and emotionally engaging.
+
+This is the core loop of byDebut.
+Do not complicate it.
 ```
 
 ---
 
-# STEP 5 — CONNECT SUPABASE
-
-Paste this AFTER the UI exists:
+# BLOQUE 5 — SUPABASE BACKEND
 
 ```text
-Now integrate Supabase as the backend.
+Now integrate Supabase.
 
-Requirements:
+Use Supabase for:
+- authentication
+- database
+- saving variations
+- loading public gallery
 
-Authentication:
-- email signup
-- login
-- session persistence
+Create these tables:
 
-Database tables:
+users:
+- id
+- username
+- email
+- role
+- created_at
 
-users
-books
-variations
-
-Books table fields:
+books:
 - id
 - title
 - slug
+- author
 - description
 - cover_url
+- central_variable
+- created_at
 
-Variations table fields:
+variations:
 - id
 - book_id
 - user_id
+- title
 - modified_variable
 - generated_world
+- audience_prediction
+- marketing_suggestions
+- visibility
+- created_at
+
+ai_logs:
+- id
+- agent_type
+- action
+- input_summary
+- output_summary
 - created_at
 
 Implement:
-- save variations
+- signup
+- login
+- session persistence
+- save variation
+- publish variation
 - load public variations
-- associate variations with users
-
-IMPORTANT:
-Keep backend architecture simple and scalable.
 ```
 
 ---
 
-# STEP 6 — CONNECT GEMINI API
-
-Paste this AFTER Supabase works:
+# BLOQUE 6 — GEMINI API
 
 ```text
-Now integrate Gemini API as the PRIMARY AI engine.
+Now integrate Gemini API as the primary AI engine.
 
-Gemini will power:
-- alternate world generation
-- consequence generation
-- narrative transformation
+Gemini must generate the full alternate world response.
 
-IMPORTANT:
-Gemini is mandatory and must remain the primary AI provider.
-
-When a user changes a variable, Gemini should generate:
+When the user enters a variable change, Gemini must return:
 
 1. Alternate World Title
 2. New Premise
 3. Social Consequences
 4. Emotional Consequences
 5. Civilization-Level Impact
+6. Audience Interest Prediction
+7. Suggested Positioning
+8. Suggested Marketing Strategy
 
-The outputs must feel:
+The output must feel:
+- cinematic
 - intelligent
 - speculative
-- cinematic
 - emotionally coherent
+- market-aware
 
-Avoid generic chatbot responses.
+Do not produce generic chatbot responses.
 
-The response should feel like a transformed civilization.
+Prompting rule:
+Gemini is not just writing a story.
+Gemini is generating a market-aware alternate narrative world.
 ```
 
 ---
 
-# STEP 7 — BUILD PUBLIC GALLERY
-
-Paste this next:
+# BLOQUE 7 — AI AUDIENCE + MARKETING LOGIC
 
 ```text
-Now create the Public Variations Gallery.
+Improve the AI output so it acts like multiple specialized AI agents.
 
-Page route:
+Use Gemini to simulate these roles:
+
+1. Narrative Generator
+Creates the alternate world.
+
+2. Audience Analyst
+Predicts likely interested audiences.
+
+3. Market Positioning Strategist
+Suggests the best genre and positioning.
+
+4. Marketing Advisor
+Suggests how the creator should promote the version.
+
+5. Moderation Agent
+Flags unsafe or abusive content.
+
+The user should see only the useful final output:
+
+- generated world
+- likely audience
+- positioning
+- marketing strategy
+
+Save AI activity into the ai_logs table.
+```
+
+---
+
+# BLOQUE 8 — PUBLIC GALLERY
+
+```text
+Create the Public Variations Gallery.
+
+Route:
 /explore
 
-Show:
-- latest variations
-- featured worlds
-- trending alternate realities
+Show public variations as cinematic cards.
 
-Each card should include:
-- book title
-- modified variable
+Each card must show:
+
+- original book title
 - generated world title
-- short premise preview
-
-Each variation must link to:
-'/version/[slug]'
-
-IMPORTANT:
-This page should feel like exploring alternate civilizations.
-Not social media.
-```
-
----
-
-# STEP 8 — BUILD VERSION PAGES
-
-Paste this next:
-
-```text
-Now create individual variation pages.
-
-Example route:
-/version/immortality-for-the-rich
-
-Each page must include:
-
-- original book reference
 - modified variable
-- generated alternate world
-- consequences
-- creation date
+- short premise preview
+- audience fit label
 - creator username
 
+Each card links to:
+/version/[slug]
+
+The gallery must feel like exploring alternate worlds, not social media.
+```
+
+---
+
+# BLOQUE 9 — INDIVIDUAL VERSION PAGE
+
+```text
+Create individual version pages.
+
+Route example:
+/version/immortality-for-billionaires
+
+Each version page must show:
+
+- original book
+- creator username
+- modified variable
+- alternate world title
+- generated premise
+- social consequences
+- emotional consequences
+- civilization impact
+- audience interest prediction
+- suggested positioning
+- suggested marketing strategy
+
 Add buttons:
-- Share
-- Create Another Variation
+- Share Version
+- Create Another Version
+- Explore More Worlds
 
-IMPORTANT:
-The page must feel like a discovered alternate reality.
+The page must feel like a complete narrative concept ready to be promoted.
 ```
 
 ---
 
-# STEP 9 — ADD AI MODERATION
-
-Paste this next:
+# BLOQUE 10 — CREATOR PLANS / STRIPE
 
 ```text
-Now implement AI moderation.
+Now create pricing and Stripe payment flow.
 
-The system must automatically detect:
-- abusive content
-- hate content
-- illegal content
-- spam
-- unsafe outputs
-
-Create an AI moderation layer before publishing variations.
-
-Add moderation logs to the admin backend.
-
-IMPORTANT:
-Moderation should happen automatically and invisibly.
-```
-
----
-
-# STEP 10 — ADD STRIPE PAYMENTS
-
-Paste this next:
-
-```text
-Now integrate Stripe payments.
-
-Create two plans:
+Create two paid plans:
 
 Creator Plan:
-$9/month
+$5/month
 
-Pro Plan:
-$29/month
+Includes:
+- more AI generations
+- creator profile
+- public versions
+- audience insights
 
-Features can remain placeholder initially.
+Pro Creator:
+$15/month
 
-The purpose is to:
-- demonstrate real business capability
-- support hackathon revenue requirements
+Includes:
+- higher generation limits
+- advanced positioning analysis
+- marketing recommendations
+- export tools
 
-Create:
-- pricing page
-- subscription flow
-- upgrade buttons
-- billing success/cancel pages
+Create pages:
+- /pricing
+- checkout flow
+- success page
+- cancel page
 
-IMPORTANT:
-Keep payments simple and production-ready.
+Keep the payment system simple.
+The purpose is to demonstrate real business and real revenue potential.
 ```
 
 ---
 
-# STEP 11 — BUILD AUTHOR DASHBOARD
-
-Paste this next:
+# BLOQUE 11 — CREATOR DASHBOARD
 
 ```text
-Now create the Author Dashboard.
+Create a Creator Dashboard.
 
-Authors should see:
-
-- books uploaded
-- total variations created
-- reader engagement
-- most modified variables
-- recent activity
-
-The dashboard must feel:
-- clean
-- modern
-- creator-focused
-
-Avoid enterprise SaaS complexity.
-
-IMPORTANT:
-This dashboard demonstrates business viability for the hackathon.
-```
-
----
-
-# STEP 12 — BUILD AI OPERATIONS DASHBOARD
-
-Paste this LAST:
-
-```text
-Now create an AI Operations Dashboard for hackathon demonstration purposes.
+Route:
+/dashboard
 
 Show:
-- Gemini generation logs
-- moderation events
-- AI classifications
-- total AI generations
-- active users
-- variation creation activity
 
-This dashboard exists to visually demonstrate:
-"AI operating the business"
+- total versions created
+- public versions
+- saved drafts
+- most used variables
+- most promising audience segments
+- recent AI generations
+- subscription plan
 
-IMPORTANT:
-The dashboard should look real, modern, and production-ready.
-This is critical for the hackathon demo video.
+Add a section:
+"AI Growth Recommendations"
+
+This section should show recommendations such as:
+
+- best audience for this creator
+- suggested social platform
+- recommended content format
+- strongest genre positioning
+
+The dashboard must feel like a creator growth studio, not a corporate admin panel.
 ```
+
+---
+
+# BLOQUE 12 — AI OPERATIONS DASHBOARD PARA HACKATHON
+
+```text
+Create an AI Operations Dashboard for hackathon demonstration.
+
+Route:
+/admin/ai-ops
+
+Show:
+
+- total Gemini generations
+- audience analysis events
+- marketing recommendation events
+- moderation events
+- latest AI logs
+- total active users
+- total public variations
+
+Purpose:
+This page demonstrates that AI is operating the business in production.
+
+Make it visually clear and credible for hackathon judges.
+```
+
+---
+
+# BLOQUE 13 — DEMO DATA
+
+```text
+Add demo seed data for initial testing.
+
+Create 3 sample books:
+
+1. Eternidad Letal
+Central variable:
+Immortality
+
+2. The Only Option
+Central variable:
+AI governance
+
+3. The Devil's Throats
+Central variable:
+Global chokepoints
+
+Add sample public variations for each book.
+
+Make the demo feel real and ready for a 3-minute hackathon video.
+```
+
+---
+
+# BLOQUE 14 — FINAL POLISH
+
+```text
+Polish the full MVP for hackathon presentation.
+
+Prioritize:
+
+- clear landing page
+- smooth core loop
+- beautiful book pages
+- high-quality Gemini output
+- public gallery
+- creator dashboard
+- AI operations dashboard
+- Stripe pricing page
+
+Do not add new major features.
+
+Focus on making the existing experience feel complete, credible, and production-ready.
+```
+
+---
+
+Después de pegar el **Bloque 1**, muéstrame la respuesta de Lovable antes de continuar.
