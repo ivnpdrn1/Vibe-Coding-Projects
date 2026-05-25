@@ -1,6 +1,6 @@
 Sí. Para Lovable conviene hacerlo por etapas. Copia y pega **solo el Paso 1 primero**. Luego me muestras captura o texto del resultado, y te doy el siguiente ajuste.
 
-**STEP 1 — Build the Visual Foundation and Navigation**
+# STEP 1 — Build the Visual Foundation and Navigation**
 
 Build the first version of the byDebut MVP as a premium cinematic web app.
 
