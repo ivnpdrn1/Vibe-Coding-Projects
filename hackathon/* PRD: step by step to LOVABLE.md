@@ -1,715 +1,747 @@
-Aquí tienes el **PRD por bloques**, actualizado con todo lo nuevo: **Audience Discovery, Narrative Optimization, creator economy, lectores convertidos en creadores, marketing guidance y hackathon focus**.
+Te recomiendo entregar a Lovable **solo 8 pasos**, en este orden. Copia y pega **uno por uno**. Después de cada paso, revisa resultado antes de continuar.
 
-Copia y pega **un bloque a la vez** en Lovable.
+# STEP 1 — Build the byDebut Visual Foundation and Core Navigation
 
----
+Build the initial byDebut MVP as a premium cinematic web app for the Gemini Hackathon.
 
-# BLOQUE 1 — Dirección del producto
+Product name:
+byDebut
 
-```text
-Create a new project called byDebut.
-
-byDebut is an AI-native narrative creator economy platform.
-
-It transforms books and stories into interactive narrative ecosystems where readers become creators.
-
-The platform does not generate random stories.
-
-It helps users:
-- change one important variable in a story
-- generate an alternate narrative world with Gemini
-- discover the likely audience for that version
-- receive marketing guidance
-- publish and share the version
-- grow as narrative creators
+Tagline:
+The Story Transformation Engine
 
 Core message:
-"Change one variable. Create a new world."
+One Story. Infinite Audiences.
 
-Strategic positioning:
-byDebut is an AI Narrative Intelligence Platform for creators.
+Product concept:
+byDebut transforms stories into alternate versions, children adaptations, illustrated editions, educational versions, and audience-optimized narrative experiences.
 
-It is NOT:
-- a generic AI writing assistant
-- a chatbot
-- a fanfiction website
-- a productivity SaaS app
+The platform must support two main modes:
 
-The platform must feel:
-- cinematic
-- intelligent
-- emotional
-- immersive
-- premium
-- simple to understand
+1. Narrative Forking
+   Create alternate versions, timelines, endings, sequel paths, and franchise possibilities.
 
-Do not redesign the product.
-Do not change the positioning.
-Do not add unrelated features.
-Do not overbuild.
+2. Audience Adaptation
+   Adapt any story for children, young readers, teens, adults, families, education, or illustrated formats.
 
-Build only what is requested step by step.
-```
+Design style:
 
----
+* cinematic
+* dark premium interface
+* elegant literary feeling
+* futuristic but sophisticated
+* emotionally intelligent
+* not childish
+* not generic SaaS
+* not chatbot-like
 
-# BLOQUE 2 — Usuarios y suscripciones
+Use:
 
-```text
-Define the official user types and subscription model for byDebut.
+* dark background
+* glassmorphism cards
+* gold / electric blue / purple accents
+* elegant typography
+* smooth transitions
+* narrative particles
+* branching story constellations
 
-USER TYPE 1 — EXPLORER
-
-Subscription:
-Free
-
-Purpose:
-Readers exploring alternate worlds.
-
-Capabilities:
-- browse books
-- explore public worlds
-- create limited variations
-- share public links
-
-Limitations:
-- limited AI generations per month
-- no advanced analytics
-- no creator branding
-
----
-
-USER TYPE 2 — CREATOR
-
-Subscription:
-$5/month
-
-Purpose:
-Readers becoming narrative creators.
-
-Capabilities:
-- higher AI generation limits
-- creator profile
-- public creator page
-- audience discovery
-- marketing recommendations
-- public publishing
-- creator dashboard
-
-This is the primary growth user type.
-
----
-
-USER TYPE 3 — PRO CREATOR
-
-Subscription:
-$15/month
-
-Purpose:
-Advanced creators building audiences and narrative brands.
-
-Capabilities:
-- very high AI generation limits
-- advanced audience analysis
-- advanced narrative optimization
-- advanced marketing guidance
-- export tools
-- premium creator branding
-- analytics dashboard
-- priority AI processing
-
----
-
-IMPORTANT PRODUCT RULE:
-
-The platform must encourage this evolution:
-
-Reader
-↓
-Explorer
-↓
-Creator
-↓
-Audience Builder
-
-The primary economic engine of byDebut is large-scale narrative creators emerging from readers.
-```
-
----
-
-# BLOQUE 3 — Frontend MVP
-
-```text
-Build only the frontend MVP first.
-
-Create these pages:
+Create these initial screens:
 
 1. Landing Page
-2. Login / Signup
-3. Books Library
-4. Individual Book Page
-5. Variable Transformation Page
-6. Public Variations Gallery
-7. Individual Version Page
-8. Pricing Page
-9. Creator Dashboard
-10. AI Operations Dashboard
 
-Do not connect backend yet.
-Do not connect Gemini yet.
-Do not connect Stripe yet.
+Hero title:
+Transform Stories Across Generations
 
-Landing Page headline:
-"Every Story Can Become Another World"
+Subtitle:
+Create alternate realities, illustrated children editions, emotional adaptations, and audience-optimized narrative universes.
 
-Subheadline:
-"Change one variable. Generate a new reality. Discover the audience for your world."
+Primary buttons:
+Transform a Story
+Create Children Version
+Explore Public Domain
+Expand Narrative Universe
 
-CTA:
-"Start Exploring"
+Hero statement:
+There is not one version of a story. There is the version that happened — and infinite versions that could happen if one variable changed.
 
-Show this simple process visually:
+2. Mode Selection Screen
 
-1. Choose a book
-2. Change one variable
-3. Gemini generates an alternate world
-4. AI discovers the likely audience
-5. AI suggests how to market it
-6. Share your version
+Create four premium cards:
 
-The design must be cinematic, premium, immersive, and simple.
+Card 1:
+Narrative Forking
+Description:
+Create alternate timelines, endings, sequel paths, and new versions of a story.
 
-Avoid:
-- generic SaaS dashboards
-- chatbot layouts
-- productivity app appearance
-```
+Card 2:
+Audience Adaptation
+Description:
+Adapt any story for children, teens, adults, families, or educational audiences.
 
----
+Card 3:
+Public Domain Transformation
+Description:
+Transform cultural classics into new versions for modern audiences.
 
-# BLOQUE 4 — Página de libro
+Card 4:
+Author Universe Expansion
+Description:
+Expand original books and author-owned universes into new audience pathways.
 
-```text
-Improve the individual book page.
+3. Navigation
 
-Route example:
-/book/eternidad-letal
+Create top navigation:
+Home
+Transform
+Children Version
+Public Domain
+Author Universe
+Audience Discovery
+Pitch Brief
 
-Each book page must include:
+4. Progress Stepper
 
-- book cover
-- title
-- author
-- synopsis
-- central story variable
-- themes
-- public variations
-- main CTA: "Change a Variable"
+Add:
+Select Story → Choose Audience → Transform → Preview → Discover Audience → Optimize → Pitch
 
-The emotional question on the page must be:
-"What happens if this changes?"
+For this step, focus only on:
 
-Add a large input box with placeholder:
-"What if immortality only existed for billionaires?"
+* visual foundation
+* navigation
+* premium identity
+* clear product structure
+* strong first impression
+
+Do not build full functionality yet.
+
+# STEP 2 — Build the Story Input and Transformation Setup Flow
+
+Now build the core story setup flow.
+
+The user must be able to choose what kind of story they want to transform.
+
+Create a screen called:
+Transform a Story
+
+The user should choose:
+
+1. Story Source
+
+Options:
+
+* Public Domain Story
+* Original Author Universe
+* Paste My Story
+* Upload Text
+* Write a Premise
+
+2. Transformation Goal
+
+Options:
+
+* Create Narrative Fork
+* Create Children Version
+* Create Illustrated Version
+* Create Educational Version
+* Create Family Edition
+* Create Young Reader Version
+* Create Cinematic Adaptation
+
+3. Audience
+
+Options:
+
+* Ages 4–6
+* Ages 7–9
+* Ages 10–12
+* Teen
+* Young Adult
+* Adult
+* Family
+* Educational
+
+4. Book Settings
+
+Allow configuration:
+
+* number of pages
+* chapter length
+* vocabulary complexity
+* emotional intensity
+* illustration density
+* reading time
+
+5. Visual Style
+
+Options:
+
+* Storybook
+* Watercolor
+* Disney-like warmth
+* Pixar-style emotional arc
+* Cinematic animation
+* Educational illustrated
+* Bedtime story
+* Graphic novel
+* Adventure
+
+Important:
+This must feel like configuring a professional adaptive publishing engine, not filling out a generic form.
+
+Use cinematic cards, sliders, elegant toggles, and premium UI.
+
+Add a button:
+Generate Adaptive Story Version
+
+Do not integrate real AI yet.
+Use mock interaction and beautiful transitions.
+
+# STEP 3 — Build Public Domain Mode with Frankenstein
+
+Now build the Public Domain Transformation flow using Frankenstein as the main demo.
+
+Screen title:
+Public Domain Transformation
+
+Show public domain story cards:
+
+* Frankenstein
+* Dracula
+* Sherlock Holmes
+* Alice in Wonderland
+* Pride and Prejudice
+* The Count of Monte Cristo
+
+Frankenstein should be marked:
+Recommended Demo
+
+When the user selects Frankenstein, show:
+
+Screen:
+Frankenstein — Story DNA
+
+Sections:
+
+* Central Conflict
+* Main Characters
+* Emotional Engine
+* Moral System
+* Narrative Chokepoints
+* Critical Decisions
+* Philosophical Tension
+
+Sample content:
+
+Central Conflict:
+Victor Frankenstein creates life but rejects his own creation, transforming scientific ambition into moral catastrophe.
+
+Emotional Engine:
+The desperate need for recognition from the one who created you.
+
+Philosophical Tension:
+Who becomes the monster: the created being or the civilization that refuses to recognize it?
+
+Narrative Chokepoints:
+
+* The creation
+* The rejection
+* Isolation
+* The demand for companionship
+* Revenge
 
 Add button:
-"Generate Alternate World"
+Identify Critical Variables
 
-The page must feel like entering a narrative universe, not filling a form.
-```
+Then create Critical Variables screen with these cards:
 
----
+1. What if Victor never abandoned the creature?
+2. What if society accepted the creature?
+3. What if the creature demanded legal recognition instead of revenge?
+4. What if the creation of life became a corporate project?
+5. What if Elizabeth discovered the experiment before the creature awakened?
 
-# BLOQUE 5 — Core transformation flow
+Each card should show:
 
-```text
-Build the core variable transformation flow.
+* emotional impact
+* philosophical impact
+* commercial potential
+* audience potential
+* narrative risk
 
-User flow:
+Add button:
+Generate Variations
 
-1. User selects a book
-2. User types one variable change
-3. User clicks "Generate Alternate World"
-4. A generated result area appears
-5. User can save, publish, or share the version
+Then generate these 3 variation cards:
 
-The generated result area must include:
+Variation 1:
+The Accepted Monster
 
-- Alternate World Title
-- New Premise
-- Social Consequences
-- Emotional Consequences
-- Civilization-Level Impact
-- Audience Discovery
-- Suggested Positioning
-- Suggested Marketing Strategy
-- Narrative Optimization Notes
+Premise:
+A hidden community accepts the creature, forcing Victor to confront the possibility that the true monster may be civilization itself.
 
-Keep the UX simple, cinematic, and emotionally engaging.
+Audience:
+Prestige philosophical sci-fi audience.
 
-This is the core loop of byDebut.
+Variation 2:
+The Patent of Life
 
-Do not complicate it.
-```
+Premise:
+Victor attempts to commercialize the creation of life, transforming the story into a biotech thriller about ownership, consciousness, and corporate power.
 
----
+Audience:
+Tech-thriller and prestige streaming audience.
 
-# BLOQUE 6 — Audience Discovery
+Variation 3:
+The Creature Testifies
 
-```text
-Add the Audience Discovery section to every generated version.
+Premise:
+The creature survives and demands legal recognition in an international tribunal.
 
-Audience Discovery must answer:
+Audience:
+Legal drama and philosophical fiction audience.
 
-1. Who is the most likely audience for this version?
-2. What genre audience will connect with it?
-3. What emotional trigger makes this version interesting?
-4. What kind of reader or viewer would share this?
-5. What social platform may work best for promotion?
+Add button:
+Create Children Version
 
-Show the result in a simple and clear format.
+# STEP 4 — Build Children Version Engine as First-Line Feature
 
-Example output:
+Now build the Children Version feature as a top-level byDebut capability.
 
-Likely Audience:
-- dystopian fiction readers
-- AI ethics audiences
-- speculative fiction TikTok creators
-- political thriller readers
+This is one of the most important features of the MVP.
 
-Emotional Hook:
-"A world where technology solves governance but destroys human agency."
+Screen title:
+Create Children Version
 
-Best Platform:
-- TikTok short explainers
-- YouTube speculative storytelling
-- Reddit discussion threads
+Hero statement:
+Transform any story into an age-appropriate illustrated edition for young readers.
 
-Do not make this complex.
-Make it useful for creators.
-```
+Core message:
+One story can travel across generations.
 
----
-
-# BLOQUE 7 — Narrative Optimization
-
-```text
-Add the Narrative Optimization section to every generated version.
-
-Narrative Optimization must help the creator improve the version toward stronger audience resonance.
-
-It must include:
-
-- strongest narrative angle
-- weakest narrative angle
-- how to increase emotional impact
-- how to increase commercial appeal
-- how to make the premise more shareable
-- next version idea with higher audience potential
-
-Example:
-
-Strongest Angle:
-"The moral conflict between survival and freedom."
-
-Weakest Angle:
-"The political structure needs clearer stakes."
-
-Optimization Suggestion:
-"Increase the personal cost for the main character so the world idea becomes emotionally grounded."
-
-Next High-Potential Variation:
-"What if only children were allowed to remain mortal?"
-
-This section must feel like an AI creative strategist, not a writing assistant.
-```
-
----
-
-# BLOQUE 8 — Supabase backend
-
-```text
-Now integrate Supabase.
-
-Use Supabase for:
-- authentication
-- database
-- saving variations
-- loading public gallery
-- user roles
-- subscription status
-- AI logs
-
-Create these tables:
-
-users:
-- id
-- username
-- email
-- role
-- subscription_plan
-- created_at
-
-books:
-- id
-- title
-- slug
-- author
-- description
-- cover_url
-- central_variable
-- themes
-- created_at
-
-variations:
-- id
-- book_id
-- user_id
-- title
-- slug
-- modified_variable
-- generated_world
-- audience_discovery
-- marketing_suggestions
-- narrative_optimization
-- visibility
-- created_at
-
-ai_logs:
-- id
-- user_id
-- variation_id
-- agent_type
-- action
-- input_summary
-- output_summary
-- created_at
-
-subscriptions:
-- id
-- user_id
-- plan
-- status
-- stripe_customer_id
-- created_at
-
-Implement:
-- signup
-- login
-- session persistence
-- save variation
-- publish variation
-- load public variations
-- user subscription state
-```
-
----
-
-# BLOQUE 9 — Gemini API
-
-```text
-Now integrate Gemini API as the primary AI engine.
-
-Gemini must generate a structured market-aware alternate narrative world.
-
-When the user enters a variable change, Gemini must return:
-
-1. Alternate World Title
-2. New Premise
-3. Social Consequences
-4. Emotional Consequences
-5. Civilization-Level Impact
-6. Audience Discovery
-7. Suggested Positioning
-8. Suggested Marketing Strategy
-9. Narrative Optimization Notes
-
-The output must feel:
-- cinematic
-- intelligent
-- speculative
-- emotionally coherent
-- market-aware
-- creator-focused
-
-Do not produce generic chatbot responses.
-
-Prompting rule:
-Gemini is not simply writing a story.
-Gemini is generating and optimizing an alternate narrative world toward audience resonance.
-```
-
----
-
-# BLOQUE 10 — Multi-agent Gemini logic
-
-```text
-Improve the AI output so Gemini simulates multiple specialized AI agents.
-
-Use Gemini to simulate these roles:
-
-1. Narrative Generator
-Creates the alternate world.
-
-2. Audience Discovery Agent
-Identifies the most likely audience for the version.
+The user should configure:
 
-3. Market Positioning Strategist
-Suggests the best genre, category, and positioning.
+1. Age Range
 
-4. Marketing Advisor
-Suggests how the creator should promote the version.
-
-5. Narrative Optimization Agent
-Suggests how to improve the version for stronger audience resonance.
-
-6. Moderation Agent
-Flags unsafe or abusive content.
-
-The user should see only the useful final output:
-
-- generated world
-- likely audience
-- positioning
-- marketing strategy
-- optimization notes
-
-Save AI activity into the ai_logs table.
-```
-
----
-
-# BLOQUE 11 — Public gallery
-
-```text
-Create the Public Variations Gallery.
-
-Route:
-/explore
-
-Show public variations as cinematic cards.
-
-Each card must show:
-
-- original book title
-- generated world title
-- modified variable
-- short premise preview
-- audience fit label
-- creator username
-- suggested genre
-
-Each card links to:
-/version/[slug]
-
-The gallery must feel like exploring alternate worlds, not social media.
-```
-
----
-
-# BLOQUE 12 — Version page
-
-```text
-Create individual version pages.
-
-Route example:
-/version/immortality-for-billionaires
-
-Each version page must show:
-
-- original book
-- creator username
-- modified variable
-- alternate world title
-- generated premise
-- social consequences
-- emotional consequences
-- civilization impact
-- audience discovery
-- suggested positioning
-- suggested marketing strategy
-- narrative optimization notes
-
-Add buttons:
-- Share Version
-- Create Another Version
-- Explore More Worlds
-
-The page must feel like a complete narrative concept ready to be promoted.
-```
-
----
-
-# BLOQUE 13 — Pricing + Stripe
-
-```text
-Now create pricing and Stripe payment flow.
-
-Create three plans:
-
-Explorer:
-Free
-
-Creator:
-$5/month
-
-Pro Creator:
-$15/month
-
-Creator Plan includes:
-- more AI generations
-- creator profile
-- public creator page
-- audience discovery
-- marketing recommendations
-- public publishing
-- creator dashboard
-
-Pro Creator includes:
-- very high AI generation limits
-- advanced audience analysis
-- advanced narrative optimization
-- advanced marketing recommendations
-- export tools
-- premium creator branding
-- analytics dashboard
-
-Create pages:
-- /pricing
-- checkout flow
-- success page
-- cancel page
-
-Keep the payment system simple.
-The purpose is to demonstrate real business and real revenue potential.
-```
-
----
-
-# BLOQUE 14 — Creator dashboard
-
-```text
-Create a Creator Dashboard.
-
-Route:
-/dashboard
+Options:
+
+* Ages 4–6
+* Ages 7–9
+* Ages 10–12
+
+2. Page Count
+
+Options:
+
+* 12 pages
+* 24 pages
+* 32 pages
+* 48 pages
+* Custom
+
+3. Reading Level
+
+Options:
+
+* Very simple
+* Early reader
+* Independent reader
+* Advanced young reader
+
+4. Emotional Tone
+
+Options:
+
+* Warm
+* Adventurous
+* Educational
+* Magical
+* Gentle suspense
+* Inspirational
+
+5. Illustration Style
+
+Options:
+
+* Storybook
+* Watercolor
+* Disney-like warmth
+* Pixar-style emotional depth
+* Educational illustration
+* Bedtime book
+* Adventure illustration
+
+6. Safety Adaptation
+
+Options:
+
+* Remove violence
+* Simplify romance
+* Reduce fear
+* Preserve moral lesson
+* Add hopeful ending
+* Add educational explanation
+
+Create a preview example using Frankenstein:
+
+Adult version:
+Frankenstein is a dark philosophical horror story about creation, rejection, and revenge.
+
+Children version:
+The Lonely Little Creation
+
+Premise:
+A brilliant inventor creates a gentle being who only wants a friend. When people are afraid of him, he learns that kindness, courage, and understanding can change hearts.
+
+Educational theme:
+Empathy, responsibility, kindness, and accepting differences.
+
+Show a mock illustrated book preview with:
+
+* cover card
+* sample page 1
+* sample page 2
+* illustration placeholder
+* short age-appropriate text
+
+Important:
+Do not generate real images yet.
+Use elegant illustrated placeholders and visual style previews.
+
+This must feel like a future Kindle Kids / KDP children adaptation feature.
+
+# STEP 5 — Build Author Universe Mode with LAS GARGANTAS DEL DIABLO
+
+Now build Author Universe Mode using:
+
+LAS GARGANTAS DEL DIABLO
+
+This mode is for original author-owned books and universes.
+
+Screen title:
+Author Universe Expansion
+
+Featured universe:
+LAS GARGANTAS DEL DIABLO
+
+Description:
+A geopolitical espionage romance about global chokepoints, impossible love, betrayal, and the fragility of systems that keep the world alive.
+
+Create a cinematic dashboard:
+
+Sections:
+
+* Core Conflict
+* Main Characters
+* Emotional Engine
+* Geopolitical System
+* Narrative Chokepoints
+* Moral Architecture
+* Expansion Potential
+* Children Adaptation Potential
+
+Sample content:
+
+Core Conflict:
+A CIA officer responsible for protecting global chokepoints falls in love with the woman secretly leading the network exposing their vulnerabilities.
+
+Emotional Engine:
+Love becomes impossible when duty, betrayal, and survival occupy the same heart.
+
+Geopolitical System:
+Maritime chokepoints, energy corridors, satellite infrastructure, supply chains, intelligence coordination, and systemic fragility.
+
+Add two main buttons:
+
+1. Generate Narrative Forks
+2. Create Children / Family Version
+
+Narrative Fork examples:
+
+Fork 1:
+The Woman Who Should Have Died
+
+Premise:
+Layla survives and disappears into a fractured Europe while Nathan secretly searches for the woman he was ordered to erase.
+
+Fork 2:
+The Silicon Strait
+
+Premise:
+The first attack targets semiconductor routes near Taiwan, transforming the crisis into a global technological cold war.
+
+Fork 3:
+Treason of the Heart
+
+Premise:
+Nathan chooses Layla over duty, triggering an international intelligence collapse.
+
+Children / Family Version example:
+
+Title:
+The Oceans That Connected the World
+
+Premise:
+A young explorer learns how oceans, ports, ships, and narrow passages connect families, food, energy, and countries around the world.
+
+Educational theme:
+Global trade, cooperation, geography, responsibility, and protecting the systems that connect people.
+
+Tone:
+Warm, educational, adventurous, hopeful.
+
+Audience:
+Ages 7–10.
+
+Show preview:
+
+* illustrated children cover placeholder
+* 24-page book structure
+* sample page text
+* illustration notes
+
+# STEP 6 — Build Illustrated Preview and Adaptive Book Layout
+
+Now build the Illustrated Story Preview experience.
+
+This must make byDebut feel like an adaptive publishing platform, not only a writing app.
+
+Screen title:
+Illustrated Version Preview
+
+The screen should show a children’s book preview layout.
+
+Include:
+
+1. Cover Preview
+
+Fields:
+
+* title
+* subtitle
+* age range
+* illustration style
+* author/source
+
+2. Page Spread Preview
+
+Show two-page spread layout:
+
+* left page: illustration placeholder
+* right page: adapted text
+
+3. Book Structure
 
 Show:
 
-- subscription plan
-- total versions created
-- public versions
-- saved drafts
-- most used variables
-- most promising audience segments
-- recent AI generations
-- upgrade CTA
+* total pages
+* number of chapters
+* reading time
+* illustration density
+* vocabulary level
+* emotional intensity
 
-Add a section:
-"AI Growth Recommendations"
+4. Sample Pages
 
-This section should show recommendations such as:
+Example for The Oceans That Connected the World:
 
-- best audience for this creator
-- suggested social platform
-- recommended content format
-- strongest genre positioning
-- next version idea with higher audience potential
+Page 1:
+Mia loved maps. She believed every blue line on the globe was a path waiting to be understood.
 
-The dashboard must feel like a creator growth studio, not a corporate admin panel.
-```
+Illustration note:
+A child looking at a glowing world map in a warm bedroom.
 
----
+Page 2:
+Her grandfather told her that oceans were not empty spaces. They were bridges between people.
 
-# BLOQUE 15 — AI Operations dashboard
+Illustration note:
+Ships crossing calm blue water under a golden sunrise.
 
-```text
-Create an AI Operations Dashboard for hackathon demonstration.
+5. Export Options
 
-Route:
-/admin/ai-ops
+Buttons:
 
-Show:
+* Generate Full Children Book Outline
+* Generate Illustrated Page Plan
+* Generate KDP-Ready Concept
+* Save Version
 
-- total Gemini generations
-- audience discovery events
-- marketing recommendation events
-- narrative optimization events
-- moderation events
-- latest AI logs
-- total active users
-- total public variations
-- subscription plan breakdown
+Important:
+This is not real KDP export yet.
+It is a polished concept preview.
 
-Purpose:
-This page demonstrates that AI is operating the business in production.
+The goal is for judges to understand that byDebut could become a powerful Amazon/KDP feature for adaptive publishing.
 
-Make it visually clear and credible for hackathon judges.
-```
+# STEP 7 — Build Audience Discovery and Narrative Optimization
 
----
+Now build the Audience Discovery layer.
 
-# BLOQUE 16 — Demo data
+This is central to byDebut.
 
-```text
-Add demo seed data for initial testing.
+Screen title:
+Audience Discovery
 
-Create 3 sample books:
+Core statement:
+The goal is not the largest audience. The goal is the truest audience.
 
-1. Eternidad Letal
-Central variable:
-Immortality
+For each generated version, show:
 
-2. The Only Option
-Central variable:
-AI governance
+* Best Possible Audience
+* Emotional Resonance
+* Educational Value
+* Commercial Potential
+* Adaptation Potential
+* Family Appeal
+* Long-Term Narrative Survival
 
-3. The Devil's Throats
-Central variable:
-Global chokepoints
+Create audience profiles.
 
-Add sample public variations for each book.
+Example 1:
+The Accepted Monster
 
-Sample variation examples:
+Best Audience:
+Readers and viewers fascinated by moral ambiguity, artificial life, social rejection, institutional cruelty, and emotionally intelligent speculative fiction.
 
-For Eternidad Letal:
-"What if immortality only existed for billionaires?"
+Example 2:
+The Lonely Little Creation
 
-For The Only Option:
-"What if AI governance became mandatory after human governments failed?"
+Best Audience:
+Children ages 7–9 and parents seeking stories about kindness, empathy, and accepting differences.
 
-For The Devil's Throats:
-"What if one global chokepoint collapsed and exposed the fragility of civilization?"
+Example 3:
+The Oceans That Connected the World
 
-Make the demo feel real and ready for a 3-minute hackathon video.
-```
+Best Audience:
+Children ages 7–10, parents, educators, and families interested in geography, global connection, trade, and cooperation.
 
----
+Add visual resonance scores:
 
-# BLOQUE 17 — Final polish
+* Emotional Resonance
+* Family Appeal
+* Educational Value
+* Visual Adaptation Potential
+* Publishing Potential
 
-```text
-Polish the full MVP for hackathon presentation.
+Then create Narrative Optimization screen.
 
-Prioritize:
+For children versions, recommend:
 
-- clear landing page
-- smooth core loop
-- beautiful book pages
-- high-quality Gemini output
-- audience discovery
-- narrative optimization
-- marketing recommendations
-- public gallery
-- creator dashboard
-- AI operations dashboard
-- Stripe pricing page
+* simplify vocabulary
+* soften conflict
+* preserve moral lesson
+* add wonder and warmth
+* increase visual moments
+* reduce fear
+* make ending hopeful
 
-Do not add new major features.
+For adult versions, recommend:
 
-Focus on making the existing experience feel complete, credible, and production-ready.
-```
+* deepen moral tension
+* increase psychological complexity
+* strengthen audience specificity
+* improve adaptation potential
 
----
+Add button:
+Generate Pitch Brief
 
-Empieza con el **Bloque 1**. Luego muéstrame la respuesta de Lovable antes de pasar al Bloque 2.
+# STEP 8 — Build Hackathon Presentation Mode and Amazon-Level Strategic Positioning
+
+Now build the final hackathon demo experience.
+
+Add a top-right button:
+Enter Presentation Mode
+
+When activated:
+
+* UI becomes cleaner
+* demo flow becomes guided
+* transitions become cinematic
+* distractions disappear
+* screens reveal progressively
+* presentation feels polished for judges
+
+Create three guided demo paths:
+
+Demo Path A:
+Public Domain Transformation
+
+Flow:
+Frankenstein
+→ Story DNA
+→ Critical Variable
+→ Adult Variation
+→ Children Version
+→ Illustrated Preview
+→ Audience Discovery
+→ Pitch Brief
+
+Demo Path B:
+Original Author Universe
+
+Flow:
+LAS GARGANTAS DEL DIABLO
+→ Universe DNA
+→ Narrative Forks
+→ Children / Family Version
+→ Illustrated Preview
+→ Audience Discovery
+→ Pitch Brief
+
+Demo Path C:
+Adaptive Publishing Vision
+
+Flow:
+One Story
+→ Multiple Audiences
+→ Children Edition
+→ Family Edition
+→ Adult Edition
+→ Educational Edition
+→ Publishing Opportunity
+
+Add final strategic vision screen.
+
+Title:
+Adaptive Narrative Publishing Infrastructure
+
+Hero statement:
+One story can become many editions, many audiences, many formats, and many generations of readers.
+
+Explain:
+
+byDebut can help:
+
+* authors expand their original books,
+* publishers create audience-specific editions,
+* families discover age-appropriate versions,
+* educators adapt complex stories,
+* public domain works become new publishing opportunities,
+* and platforms like Amazon KDP, Kindle Kids, Audible, and Prime Video imagine adaptive story experiences.
+
+Important:
+Do not claim any Amazon partnership.
+Only present future compatibility and strategic relevance.
+
+Final statement:
+byDebut is not an AI writing assistant.
+
+It is:
+
+* a story transformation engine,
+* an adaptive publishing layer,
+* an audience discovery system,
+* and a multi-generational narrative platform.
+
+Final buttons:
+Transform a Story
+Create Children Version
+Explore Publishing Opportunity
+
+Add fallback demo safety:
+If AI output fails, show polished mock outputs and never show raw errors.
+
+Fallback text:
+Narrative signal instability detected. Reconstructing alternate pathways.
+
+Final goal:
+Judges should feel:
+This could become an Amazon-level publishing feature.
