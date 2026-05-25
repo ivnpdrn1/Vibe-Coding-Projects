@@ -1,13 +1,33 @@
-Aquí tienes la **secuencia completa**, lista para copiar y pegar en Lovable **bloque por bloque**.
+Aquí tienes el **PRD por bloques**, actualizado con todo lo nuevo: **Audience Discovery, Narrative Optimization, creator economy, lectores convertidos en creadores, marketing guidance y hackathon focus**.
+
+Copia y pega **un bloque a la vez** en Lovable.
 
 ---
 
-# BLOQUE 1 — Crear proyecto
+# BLOQUE 1 — Dirección del producto
 
 ```text
 Create a new project called byDebut.
 
 byDebut is an AI-native narrative creator economy platform.
+
+It transforms books and stories into interactive narrative ecosystems where readers become creators.
+
+The platform does not generate random stories.
+
+It helps users:
+- change one important variable in a story
+- generate an alternate narrative world with Gemini
+- discover the likely audience for that version
+- receive marketing guidance
+- publish and share the version
+- grow as narrative creators
+
+Core message:
+"Change one variable. Create a new world."
+
+Strategic positioning:
+byDebut is an AI Narrative Intelligence Platform for creators.
 
 It is NOT:
 - a generic AI writing assistant
@@ -15,17 +35,12 @@ It is NOT:
 - a fanfiction website
 - a productivity SaaS app
 
-Core concept:
-A user selects a book, changes one important variable in the story, and Gemini generates an alternate world with audience prediction and marketing guidance.
-
-Primary message:
-"Change one variable. Create a new world."
-
-The product must feel:
+The platform must feel:
 - cinematic
+- intelligent
 - emotional
-- modern
 - immersive
+- premium
 - simple to understand
 
 Do not redesign the product.
@@ -38,7 +53,7 @@ Build only what is requested step by step.
 
 ---
 
-# BLOQUE 2 — Tipos de usuarios y suscripciones
+# BLOQUE 2 — Usuarios y suscripciones
 
 ```text
 Define the official user types and subscription model for byDebut.
@@ -76,7 +91,7 @@ Capabilities:
 - higher AI generation limits
 - creator profile
 - public creator page
-- audience interest predictions
+- audience discovery
 - marketing recommendations
 - public publishing
 - creator dashboard
@@ -96,6 +111,7 @@ Advanced creators building audiences and narrative brands.
 Capabilities:
 - very high AI generation limits
 - advanced audience analysis
+- advanced narrative optimization
 - advanced marketing guidance
 - export tools
 - premium creator branding
@@ -116,9 +132,7 @@ Creator
 ↓
 Audience Builder
 
-The primary economic engine of byDebut is not authors alone.
-
-The primary economic engine is large-scale narrative creators emerging from readers.
+The primary economic engine of byDebut is large-scale narrative creators emerging from readers.
 ```
 
 ---
@@ -139,6 +153,7 @@ Create these pages:
 7. Individual Version Page
 8. Pricing Page
 9. Creator Dashboard
+10. AI Operations Dashboard
 
 Do not connect backend yet.
 Do not connect Gemini yet.
@@ -158,8 +173,9 @@ Show this simple process visually:
 1. Choose a book
 2. Change one variable
 3. Gemini generates an alternate world
-4. AI predicts audience interest
-5. Share your version
+4. AI discovers the likely audience
+5. AI suggests how to market it
+6. Share your version
 
 The design must be cinematic, premium, immersive, and simple.
 
@@ -199,12 +215,12 @@ Add a large input box with placeholder:
 Add button:
 "Generate Alternate World"
 
-The page must feel like entering a narrative universe.
+The page must feel like entering a narrative universe, not filling a form.
 ```
 
 ---
 
-# BLOQUE 5 — Flujo de transformación
+# BLOQUE 5 — Core transformation flow
 
 ```text
 Build the core variable transformation flow.
@@ -224,19 +240,93 @@ The generated result area must include:
 - Social Consequences
 - Emotional Consequences
 - Civilization-Level Impact
-- Audience Interest
+- Audience Discovery
 - Suggested Positioning
 - Suggested Marketing Strategy
+- Narrative Optimization Notes
 
 Keep the UX simple, cinematic, and emotionally engaging.
 
 This is the core loop of byDebut.
+
 Do not complicate it.
 ```
 
 ---
 
-# BLOQUE 6 — Supabase
+# BLOQUE 6 — Audience Discovery
+
+```text
+Add the Audience Discovery section to every generated version.
+
+Audience Discovery must answer:
+
+1. Who is the most likely audience for this version?
+2. What genre audience will connect with it?
+3. What emotional trigger makes this version interesting?
+4. What kind of reader or viewer would share this?
+5. What social platform may work best for promotion?
+
+Show the result in a simple and clear format.
+
+Example output:
+
+Likely Audience:
+- dystopian fiction readers
+- AI ethics audiences
+- speculative fiction TikTok creators
+- political thriller readers
+
+Emotional Hook:
+"A world where technology solves governance but destroys human agency."
+
+Best Platform:
+- TikTok short explainers
+- YouTube speculative storytelling
+- Reddit discussion threads
+
+Do not make this complex.
+Make it useful for creators.
+```
+
+---
+
+# BLOQUE 7 — Narrative Optimization
+
+```text
+Add the Narrative Optimization section to every generated version.
+
+Narrative Optimization must help the creator improve the version toward stronger audience resonance.
+
+It must include:
+
+- strongest narrative angle
+- weakest narrative angle
+- how to increase emotional impact
+- how to increase commercial appeal
+- how to make the premise more shareable
+- next version idea with higher audience potential
+
+Example:
+
+Strongest Angle:
+"The moral conflict between survival and freedom."
+
+Weakest Angle:
+"The political structure needs clearer stakes."
+
+Optimization Suggestion:
+"Increase the personal cost for the main character so the world idea becomes emotionally grounded."
+
+Next High-Potential Variation:
+"What if only children were allowed to remain mortal?"
+
+This section must feel like an AI creative strategist, not a writing assistant.
+```
+
+---
+
+# BLOQUE 8 — Supabase backend
 
 ```text
 Now integrate Supabase.
@@ -248,6 +338,7 @@ Use Supabase for:
 - loading public gallery
 - user roles
 - subscription status
+- AI logs
 
 Create these tables:
 
@@ -267,6 +358,7 @@ books:
 - description
 - cover_url
 - central_variable
+- themes
 - created_at
 
 variations:
@@ -274,15 +366,19 @@ variations:
 - book_id
 - user_id
 - title
+- slug
 - modified_variable
 - generated_world
-- audience_prediction
+- audience_discovery
 - marketing_suggestions
+- narrative_optimization
 - visibility
 - created_at
 
 ai_logs:
 - id
+- user_id
+- variation_id
 - agent_type
 - action
 - input_summary
@@ -309,12 +405,12 @@ Implement:
 
 ---
 
-# BLOQUE 7 — Gemini API
+# BLOQUE 9 — Gemini API
 
 ```text
 Now integrate Gemini API as the primary AI engine.
 
-Gemini must generate the full alternate world response.
+Gemini must generate a structured market-aware alternate narrative world.
 
 When the user enters a variable change, Gemini must return:
 
@@ -323,9 +419,10 @@ When the user enters a variable change, Gemini must return:
 3. Social Consequences
 4. Emotional Consequences
 5. Civilization-Level Impact
-6. Audience Interest Prediction
+6. Audience Discovery
 7. Suggested Positioning
 8. Suggested Marketing Strategy
+9. Narrative Optimization Notes
 
 The output must feel:
 - cinematic
@@ -333,36 +430,40 @@ The output must feel:
 - speculative
 - emotionally coherent
 - market-aware
+- creator-focused
 
 Do not produce generic chatbot responses.
 
 Prompting rule:
-Gemini is not just writing a story.
-Gemini is generating a market-aware alternate narrative world.
+Gemini is not simply writing a story.
+Gemini is generating and optimizing an alternate narrative world toward audience resonance.
 ```
 
 ---
 
-# BLOQUE 8 — Multi-agent Gemini logic
+# BLOQUE 10 — Multi-agent Gemini logic
 
 ```text
-Improve the AI output so it acts like multiple specialized AI agents.
+Improve the AI output so Gemini simulates multiple specialized AI agents.
 
 Use Gemini to simulate these roles:
 
 1. Narrative Generator
 Creates the alternate world.
 
-2. Audience Analyst
-Predicts likely interested audiences.
+2. Audience Discovery Agent
+Identifies the most likely audience for the version.
 
 3. Market Positioning Strategist
-Suggests the best genre and positioning.
+Suggests the best genre, category, and positioning.
 
 4. Marketing Advisor
 Suggests how the creator should promote the version.
 
-5. Moderation Agent
+5. Narrative Optimization Agent
+Suggests how to improve the version for stronger audience resonance.
+
+6. Moderation Agent
 Flags unsafe or abusive content.
 
 The user should see only the useful final output:
@@ -371,13 +472,14 @@ The user should see only the useful final output:
 - likely audience
 - positioning
 - marketing strategy
+- optimization notes
 
 Save AI activity into the ai_logs table.
 ```
 
 ---
 
-# BLOQUE 9 — Public Gallery
+# BLOQUE 11 — Public gallery
 
 ```text
 Create the Public Variations Gallery.
@@ -395,6 +497,7 @@ Each card must show:
 - short premise preview
 - audience fit label
 - creator username
+- suggested genre
 
 Each card links to:
 /version/[slug]
@@ -404,7 +507,7 @@ The gallery must feel like exploring alternate worlds, not social media.
 
 ---
 
-# BLOQUE 10 — Version page
+# BLOQUE 12 — Version page
 
 ```text
 Create individual version pages.
@@ -422,9 +525,10 @@ Each version page must show:
 - social consequences
 - emotional consequences
 - civilization impact
-- audience interest prediction
+- audience discovery
 - suggested positioning
 - suggested marketing strategy
+- narrative optimization notes
 
 Add buttons:
 - Share Version
@@ -436,7 +540,7 @@ The page must feel like a complete narrative concept ready to be promoted.
 
 ---
 
-# BLOQUE 11 — Pricing + Stripe
+# BLOQUE 13 — Pricing + Stripe
 
 ```text
 Now create pricing and Stripe payment flow.
@@ -456,12 +560,15 @@ Creator Plan includes:
 - more AI generations
 - creator profile
 - public creator page
-- audience insights
+- audience discovery
 - marketing recommendations
+- public publishing
+- creator dashboard
 
 Pro Creator includes:
 - very high AI generation limits
-- advanced positioning analysis
+- advanced audience analysis
+- advanced narrative optimization
 - advanced marketing recommendations
 - export tools
 - premium creator branding
@@ -479,7 +586,7 @@ The purpose is to demonstrate real business and real revenue potential.
 
 ---
 
-# BLOQUE 12 — Creator Dashboard
+# BLOQUE 14 — Creator dashboard
 
 ```text
 Create a Creator Dashboard.
@@ -514,7 +621,7 @@ The dashboard must feel like a creator growth studio, not a corporate admin pane
 
 ---
 
-# BLOQUE 13 — AI Operations Dashboard
+# BLOQUE 15 — AI Operations dashboard
 
 ```text
 Create an AI Operations Dashboard for hackathon demonstration.
@@ -525,8 +632,9 @@ Route:
 Show:
 
 - total Gemini generations
-- audience analysis events
+- audience discovery events
 - marketing recommendation events
+- narrative optimization events
 - moderation events
 - latest AI logs
 - total active users
@@ -541,7 +649,7 @@ Make it visually clear and credible for hackathon judges.
 
 ---
 
-# BLOQUE 14 — Demo data
+# BLOQUE 16 — Demo data
 
 ```text
 Add demo seed data for initial testing.
@@ -562,12 +670,23 @@ Global chokepoints
 
 Add sample public variations for each book.
 
+Sample variation examples:
+
+For Eternidad Letal:
+"What if immortality only existed for billionaires?"
+
+For The Only Option:
+"What if AI governance became mandatory after human governments failed?"
+
+For The Devil's Throats:
+"What if one global chokepoint collapsed and exposed the fragility of civilization?"
+
 Make the demo feel real and ready for a 3-minute hackathon video.
 ```
 
 ---
 
-# BLOQUE 15 — Final polish
+# BLOQUE 17 — Final polish
 
 ```text
 Polish the full MVP for hackathon presentation.
@@ -578,7 +697,8 @@ Prioritize:
 - smooth core loop
 - beautiful book pages
 - high-quality Gemini output
-- audience prediction
+- audience discovery
+- narrative optimization
 - marketing recommendations
 - public gallery
 - creator dashboard
@@ -592,4 +712,4 @@ Focus on making the existing experience feel complete, credible, and production-
 
 ---
 
-Después de pegar el **Bloque 1**, muéstrame la respuesta de Lovable antes de avanzar al Bloque 2.
+Empieza con el **Bloque 1**. Luego muéstrame la respuesta de Lovable antes de pasar al Bloque 2.
