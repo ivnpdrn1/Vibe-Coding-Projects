@@ -1,8 +1,8 @@
-Aquí tienes los bloques **separados y listos para copiar y pegar en Lovable**, uno por uno. No pegues todos juntos.
+Aquí tienes la **secuencia completa**, lista para copiar y pegar en Lovable **bloque por bloque**.
 
 ---
 
-# BLOQUE 1 — CREAR PROYECTO Y FIJAR DIRECCIÓN
+# BLOQUE 1 — Crear proyecto
 
 ```text
 Create a new project called byDebut.
@@ -14,8 +14,6 @@ It is NOT:
 - a chatbot
 - a fanfiction website
 - a productivity SaaS app
-
-byDebut allows readers to become narrative creators.
 
 Core concept:
 A user selects a book, changes one important variable in the story, and Gemini generates an alternate world with audience prediction and marketing guidance.
@@ -40,7 +38,92 @@ Build only what is requested step by step.
 
 ---
 
-# BLOQUE 2 — FRONTEND MVP
+# BLOQUE 2 — Tipos de usuarios y suscripciones
+
+```text
+Define the official user types and subscription model for byDebut.
+
+USER TYPE 1 — EXPLORER
+
+Subscription:
+Free
+
+Purpose:
+Readers exploring alternate worlds.
+
+Capabilities:
+- browse books
+- explore public worlds
+- create limited variations
+- share public links
+
+Limitations:
+- limited AI generations per month
+- no advanced analytics
+- no creator branding
+
+---
+
+USER TYPE 2 — CREATOR
+
+Subscription:
+$5/month
+
+Purpose:
+Readers becoming narrative creators.
+
+Capabilities:
+- higher AI generation limits
+- creator profile
+- public creator page
+- audience interest predictions
+- marketing recommendations
+- public publishing
+- creator dashboard
+
+This is the primary growth user type.
+
+---
+
+USER TYPE 3 — PRO CREATOR
+
+Subscription:
+$15/month
+
+Purpose:
+Advanced creators building audiences and narrative brands.
+
+Capabilities:
+- very high AI generation limits
+- advanced audience analysis
+- advanced marketing guidance
+- export tools
+- premium creator branding
+- analytics dashboard
+- priority AI processing
+
+---
+
+IMPORTANT PRODUCT RULE:
+
+The platform must encourage this evolution:
+
+Reader
+↓
+Explorer
+↓
+Creator
+↓
+Audience Builder
+
+The primary economic engine of byDebut is not authors alone.
+
+The primary economic engine is large-scale narrative creators emerging from readers.
+```
+
+---
+
+# BLOQUE 3 — Frontend MVP
 
 ```text
 Build only the frontend MVP first.
@@ -54,6 +137,8 @@ Create these pages:
 5. Variable Transformation Page
 6. Public Variations Gallery
 7. Individual Version Page
+8. Pricing Page
+9. Creator Dashboard
 
 Do not connect backend yet.
 Do not connect Gemini yet.
@@ -77,12 +162,16 @@ Show this simple process visually:
 5. Share your version
 
 The design must be cinematic, premium, immersive, and simple.
-Avoid generic SaaS dashboards.
+
+Avoid:
+- generic SaaS dashboards
+- chatbot layouts
+- productivity app appearance
 ```
 
 ---
 
-# BLOQUE 3 — BOOK PAGE
+# BLOQUE 4 — Página de libro
 
 ```text
 Improve the individual book page.
@@ -115,7 +204,7 @@ The page must feel like entering a narrative universe.
 
 ---
 
-# BLOQUE 4 — VARIABLE TRANSFORMATION FLOW
+# BLOQUE 5 — Flujo de transformación
 
 ```text
 Build the core variable transformation flow.
@@ -147,7 +236,7 @@ Do not complicate it.
 
 ---
 
-# BLOQUE 5 — SUPABASE BACKEND
+# BLOQUE 6 — Supabase
 
 ```text
 Now integrate Supabase.
@@ -157,6 +246,8 @@ Use Supabase for:
 - database
 - saving variations
 - loading public gallery
+- user roles
+- subscription status
 
 Create these tables:
 
@@ -165,6 +256,7 @@ users:
 - username
 - email
 - role
+- subscription_plan
 - created_at
 
 books:
@@ -197,6 +289,14 @@ ai_logs:
 - output_summary
 - created_at
 
+subscriptions:
+- id
+- user_id
+- plan
+- status
+- stripe_customer_id
+- created_at
+
 Implement:
 - signup
 - login
@@ -204,11 +304,12 @@ Implement:
 - save variation
 - publish variation
 - load public variations
+- user subscription state
 ```
 
 ---
 
-# BLOQUE 6 — GEMINI API
+# BLOQUE 7 — Gemini API
 
 ```text
 Now integrate Gemini API as the primary AI engine.
@@ -242,7 +343,7 @@ Gemini is generating a market-aware alternate narrative world.
 
 ---
 
-# BLOQUE 7 — AI AUDIENCE + MARKETING LOGIC
+# BLOQUE 8 — Multi-agent Gemini logic
 
 ```text
 Improve the AI output so it acts like multiple specialized AI agents.
@@ -276,7 +377,7 @@ Save AI activity into the ai_logs table.
 
 ---
 
-# BLOQUE 8 — PUBLIC GALLERY
+# BLOQUE 9 — Public Gallery
 
 ```text
 Create the Public Variations Gallery.
@@ -303,7 +404,7 @@ The gallery must feel like exploring alternate worlds, not social media.
 
 ---
 
-# BLOQUE 9 — INDIVIDUAL VERSION PAGE
+# BLOQUE 10 — Version page
 
 ```text
 Create individual version pages.
@@ -335,30 +436,36 @@ The page must feel like a complete narrative concept ready to be promoted.
 
 ---
 
-# BLOQUE 10 — CREATOR PLANS / STRIPE
+# BLOQUE 11 — Pricing + Stripe
 
 ```text
 Now create pricing and Stripe payment flow.
 
-Create two paid plans:
+Create three plans:
 
-Creator Plan:
+Explorer:
+Free
+
+Creator:
 $5/month
-
-Includes:
-- more AI generations
-- creator profile
-- public versions
-- audience insights
 
 Pro Creator:
 $15/month
 
-Includes:
-- higher generation limits
-- advanced positioning analysis
+Creator Plan includes:
+- more AI generations
+- creator profile
+- public creator page
+- audience insights
 - marketing recommendations
+
+Pro Creator includes:
+- very high AI generation limits
+- advanced positioning analysis
+- advanced marketing recommendations
 - export tools
+- premium creator branding
+- analytics dashboard
 
 Create pages:
 - /pricing
@@ -372,7 +479,7 @@ The purpose is to demonstrate real business and real revenue potential.
 
 ---
 
-# BLOQUE 11 — CREATOR DASHBOARD
+# BLOQUE 12 — Creator Dashboard
 
 ```text
 Create a Creator Dashboard.
@@ -382,13 +489,14 @@ Route:
 
 Show:
 
+- subscription plan
 - total versions created
 - public versions
 - saved drafts
 - most used variables
 - most promising audience segments
 - recent AI generations
-- subscription plan
+- upgrade CTA
 
 Add a section:
 "AI Growth Recommendations"
@@ -399,13 +507,14 @@ This section should show recommendations such as:
 - suggested social platform
 - recommended content format
 - strongest genre positioning
+- next version idea with higher audience potential
 
 The dashboard must feel like a creator growth studio, not a corporate admin panel.
 ```
 
 ---
 
-# BLOQUE 12 — AI OPERATIONS DASHBOARD PARA HACKATHON
+# BLOQUE 13 — AI Operations Dashboard
 
 ```text
 Create an AI Operations Dashboard for hackathon demonstration.
@@ -422,6 +531,7 @@ Show:
 - latest AI logs
 - total active users
 - total public variations
+- subscription plan breakdown
 
 Purpose:
 This page demonstrates that AI is operating the business in production.
@@ -431,7 +541,7 @@ Make it visually clear and credible for hackathon judges.
 
 ---
 
-# BLOQUE 13 — DEMO DATA
+# BLOQUE 14 — Demo data
 
 ```text
 Add demo seed data for initial testing.
@@ -457,7 +567,7 @@ Make the demo feel real and ready for a 3-minute hackathon video.
 
 ---
 
-# BLOQUE 14 — FINAL POLISH
+# BLOQUE 15 — Final polish
 
 ```text
 Polish the full MVP for hackathon presentation.
@@ -468,6 +578,8 @@ Prioritize:
 - smooth core loop
 - beautiful book pages
 - high-quality Gemini output
+- audience prediction
+- marketing recommendations
 - public gallery
 - creator dashboard
 - AI operations dashboard
@@ -480,4 +592,4 @@ Focus on making the existing experience feel complete, credible, and production-
 
 ---
 
-Después de pegar el **Bloque 1**, muéstrame la respuesta de Lovable antes de continuar.
+Después de pegar el **Bloque 1**, muéstrame la respuesta de Lovable antes de avanzar al Bloque 2.
