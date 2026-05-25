@@ -1,724 +1,681 @@
-Basado en el documento anexado, el MVP debe demostrar que byDebut no es un simple generador de historias, sino un **Story Transformation Engine + Audience Discovery + Narrative Optimization System**, incluyendo explícitamente obras de dominio público, variaciones narrativas, ranking, validación y audiencia ideal. 
+# byDebut — MASTER PRD FOR LOVABLE
 
-# PRD — byDebut MVP para Gemini Hackathon
+# Gemini Hackathon MVP Edition
 
-## 1. Nombre del producto
-
-**byDebut**
-**The Story Transformation Engine**
-
-Subtítulo para demo:
-
-**Transform public domain stories into optimized narrative variations for the best possible audience.**
+## Adaptive Narrative Publishing & Story Transformation Platform
 
 ---
 
-## 2. Objetivo del MVP
+# 1. PROJECT OVERVIEW
 
-Construir una demostración funcional, visual y convincente de byDebut para el **Gemini Hackathon**, mostrando que la plataforma puede:
+## Product Name
 
-1. Tomar una obra de dominio público.
-2. Analizar su estructura narrativa.
-3. Identificar variables críticas.
-4. Generar nuevas versiones.
-5. Comparar variaciones.
-6. Crear forks narrativos.
-7. Simular ranking y validación colectiva.
-8. Identificar la audiencia más adecuada.
-9. Recomendar la versión con mayor potencial emocional, cultural, filosófico y comercial.
+byDebut
 
----
+## Core Tagline
 
-## 3. Problema que resuelve
+The Story Transformation Engine
 
-Hoy los escritores, productores, editoriales y estudios audiovisuales toman decisiones narrativas con demasiada incertidumbre.
+## Expanded Vision
 
-No saben con precisión:
-
-* qué versión de una historia tiene más fuerza,
-* qué audiencia conectará mejor,
-* qué cambio narrativo produce mayor impacto,
-* qué variación merece inversión,
-* ni qué historia tiene mayor potencial de adaptación.
-
-byDebut convierte esa incertidumbre en exploración sistemática.
+One Story. Infinite Audiences.
 
 ---
 
-## 4. Promesa central del MVP
+# 2. CORE PRODUCT IDEA
 
-El usuario debe entender en menos de 60 segundos:
+byDebut is an AI-powered narrative transformation platform that allows users to:
 
-> byDebut toma una historia, cambia una variable crítica, genera nuevas versiones y descubre cuál conecta mejor con la audiencia correcta.
+* transform stories,
+* create alternate narrative versions,
+* adapt books for different audiences,
+* generate children’s editions,
+* create illustrated versions,
+* discover audience resonance,
+* and expand narrative universes.
 
----
+The platform combines:
 
-## 5. Usuarios objetivo
+* AI narrative intelligence,
+* adaptive storytelling,
+* emotional audience calibration,
+* visual narrative transformation,
+* and publishing-oriented workflows.
 
-### Usuario principal del hackathon
+IMPORTANT:
+This MVP is designed specifically for:
 
-* Escritores
-* Novelistas
-* Guionistas
-* Productores
-* Editoriales
-* Estudios de cine
-* Plataformas de streaming
-* Creadores independientes
-* Lectores sofisticados
-* Jueces del hackathon
-
-### Usuario emocional ideal
-
-Una persona que termina una historia y se pregunta:
-
-> ¿Qué habría pasado si una sola variable hubiera cambiado?
+* Gemini Hackathon judges,
+* future Amazon/KDP positioning,
+* and viral narrative transformation demonstrations.
 
 ---
 
-## 6. Alcance del MVP
+# 3. PRIMARY MVP OBJECTIVE
 
-### Debe incluir
+The MVP must demonstrate:
 
-* Landing/demo cinematic.
-* Selección de obra de dominio público.
-* Carga o selección de historia base.
-* Análisis estructural.
-* Identificación de variables críticas.
-* Generación de 3 a 5 variaciones.
-* Comparación entre versiones.
-* Visualización tipo árbol/fork.
-* Ranking de variaciones.
-* Audience Discovery.
-* Narrative Optimization.
-* Recomendación final.
-* Pitch exportable o resumen final.
+## A. Narrative Transformation
 
-### No necesita incluir todavía
+A story can become:
 
-* Comunidad real completa.
-* Sistema real de votación masiva.
-* Marketplace.
-* Login avanzado.
-* Pagos.
-* Red social interna.
-* Publicación directa.
-* Base masiva de usuarios.
+* alternate versions,
+* alternate timelines,
+* alternate emotional arcs,
+* alternate endings.
 
 ---
 
-# 7. Flujo principal del MVP
+## B. Audience Adaptation
 
-## Paso 1 — Pantalla de entrada
+The SAME story can become:
 
-Título:
-
-**byDebut**
-
-Frase principal:
-
-**There is not one version of a story. There is the version that happened — and infinite versions that could happen if one variable changed.**
-
-Botón principal:
-
-**Start Transformation**
-
-Botón secundario:
-
-**Explore Public Domain Stories**
+* a children’s book,
+* a young reader version,
+* a family edition,
+* an educational version,
+* or an illustrated adaptation.
 
 ---
 
-## Paso 2 — Selección de historia base
+## C. Narrative Intelligence
 
-El usuario puede elegir una obra de dominio público:
+The platform can:
 
-Ejemplos recomendados:
-
-* *Dracula*
-* *Frankenstein*
-* *Pride and Prejudice*
-* *The Count of Monte Cristo*
-* *The Time Machine*
-* *Alice in Wonderland*
-* *The Strange Case of Dr. Jekyll and Mr. Hyde*
-
-Para hackathon, recomiendo usar una obra muy reconocible:
-
-**Frankenstein** o **Dracula**.
-
-Porque son universales, visuales y fáciles de entender.
+* identify emotional resonance,
+* suggest best audience fit,
+* optimize narrative tone,
+* and visualize story evolution.
 
 ---
 
-## Paso 3 — Story Structural Profile
+# 4. THE BIG HACKATHON IDEA
 
-La app muestra que Gemini analiza la historia y produce:
+Stories survive by adapting across generations.
 
-* Premisa central
-* Conflicto principal
-* Personajes clave
-* Motivaciones
-* Sistema moral
-* Puntos de tensión
-* Chokepoints narrativos
-* Decisiones críticas
-* Posibles bifurcaciones
+byDebut demonstrates:
 
-Ejemplo visual:
+* adaptive storytelling,
+* multi-generational publishing,
+* and infinite narrative evolution.
 
-**Story Map**
+This is NOT:
 
-* Victor Frankenstein
-* The Creature
-* Creation
-* Rejection
-* Revenge
-* Moral Collapse
+* an AI writing assistant,
+* or a chatbot.
+
+This is:
+
+# Adaptive Narrative Publishing Infrastructure.
 
 ---
 
-## Paso 4 — Critical Variables
+# 5. PRIMARY MVP MODES
 
-La app identifica variables que pueden cambiar la historia.
-
-Ejemplo con *Frankenstein*:
-
-1. ¿Qué pasa si Victor no abandona a la criatura?
-2. ¿Qué pasa si la criatura es aceptada por la sociedad?
-3. ¿Qué pasa si Elizabeth descubre el experimento antes?
-4. ¿Qué pasa si la criatura es creada en el siglo XXI?
-5. ¿Qué pasa si la criatura no busca venganza, sino reconocimiento legal?
-
-Cada variable debe mostrar:
-
-* impacto emocional,
-* impacto filosófico,
-* impacto comercial,
-* posible audiencia,
-* riesgo narrativo.
+The MVP MUST include TWO CORE MODES.
 
 ---
 
-## Paso 5 — Generate Variations
+# MODE 1 — Narrative Forking
 
-Gemini genera 3 a 5 nuevas versiones.
+## Purpose
 
-Cada variación debe tener:
+Generate alternate versions of stories.
 
-* título provisional,
-* logline,
-* premisa,
-* cambio principal,
-* consecuencia sistémica,
-* audiencia probable,
-* tono,
-* potencial de adaptación.
+Examples:
 
-Ejemplo:
+* What if Frankenstein were accepted?
+* What if the CIA agent saved her?
+* What if the villain survived?
+* What if the geopolitical crisis escalated?
 
-### Variation A — The Accepted Monster
+Capabilities:
 
-La criatura es aceptada por una comunidad aislada. El conflicto deja de ser rechazo individual y se convierte en miedo institucional.
-
-### Variation B — The Patent of Life
-
-Victor intenta patentar la creación de vida. La historia se transforma en thriller biotecnológico sobre propiedad, alma y poder corporativo.
-
-### Variation C — The Creature Testifies
-
-La criatura sobrevive y lleva a Victor ante un tribunal internacional. La novela se transforma en drama legal filosófico.
+* alternate timelines,
+* alternate endings,
+* alternate emotional structures,
+* sequel possibilities,
+* franchise expansion.
 
 ---
 
-## Paso 6 — Forking Map
+# MODE 2 — Audience Adaptation
 
-Visualización central del MVP.
+## Purpose
 
-Debe verse como un árbol narrativo:
+Adapt stories for different audiences.
 
-**Original Story → Variable Changed → New Version → Audience → Score**
+Examples:
 
-Ejemplo:
+* Adult thriller
+  → illustrated children version
+
+* Public domain horror
+  → educational family edition
+
+* Complex geopolitical novel
+  → simplified young-reader adventure
+
+Capabilities:
+
+* age adaptation,
+* emotional scaling,
+* vocabulary scaling,
+* illustration guidance,
+* educational adaptation,
+* family-safe transformation.
+
+---
+
+# 6. PRIMARY DEMO FLOW
+
+IMPORTANT:
+This is the MAIN hackathon experience.
+
+---
+
+# DEMO FLOW A — Public Domain
+
+## Input
 
 Frankenstein
-→ Variable: Creature accepted
-→ Version: The Accepted Monster
-→ Audience: Philosophical sci-fi readers
-→ Score: 91%
 
-Esto debe producir el “wow effect”.
+## Transformation
 
----
+“What if society accepted the monster?”
 
-## Paso 7 — Ranking de variaciones
+## Output
 
-Cada versión recibe scores simulados o generados por Gemini:
-
-* Emotional Resonance
-* Philosophical Depth
-* Commercial Potential
-* Cultural Universality
-* Adaptation Potential
-* Audience Fit
-* Narrative Novelty
-
-Ejemplo:
-
-| Versión                | Emocional | Comercial | Filosófica | Audiencia | Total |
-| ---------------------- | --------: | --------: | ---------: | --------: | ----: |
-| The Accepted Monster   |        94 |        83 |         96 |        91 |    92 |
-| The Patent of Life     |        87 |        94 |         89 |        88 |    90 |
-| The Creature Testifies |        91 |        78 |         98 |        84 |    89 |
+* alternate narrative,
+* audience analysis,
+* illustrated children version preview,
+* emotional adaptation.
 
 ---
 
-## Paso 8 — Audience Discovery
+# DEMO FLOW B — Original Author Universe
 
-La app recomienda la mejor audiencia para cada variación.
+## Input
 
-No debe decir simplemente:
+LAS GARGANTAS DEL DIABLO
 
-“jóvenes adultos” o “mujeres de 25 a 45”.
+## Adult Version
 
-Debe decir algo más poderoso:
+Geopolitical romance thriller.
 
-> Readers fascinated by moral ambiguity, institutional failure, artificial life, and the emotional cost of rejection.
+## Then:
 
-O:
+Generate:
+“The Oceans That Connected the World”
 
-> Viewers who enjoy prestige sci-fi dramas where the monster is not the creature, but the system that refuses to recognize it.
+Illustrated children adaptation.
 
----
+Tone:
 
-## Paso 9 — Narrative Optimization
+* educational,
+* adventurous,
+* emotionally warm.
 
-La app recomienda cómo mejorar la versión ganadora.
-
-Debe incluir:
-
-* qué intensificar,
-* qué reducir,
-* qué personaje fortalecer,
-* qué dilema moral destacar,
-* qué audiencia priorizar,
-* qué formato audiovisual podría funcionar mejor.
-
-Ejemplo:
-
-**Recommended Optimization**
-
-* Increase the legal-philosophical confrontation.
-* Make the creature emotionally articulate.
-* Position Victor as both genius and institutional coward.
-* Target prestige streaming audiences.
-* Tone: *Ex Machina* + *The Trial* + *Frankenstein*.
+THIS IS A MAJOR WOW MOMENT.
 
 ---
 
-## Paso 10 — Final Recommendation
-
-La app entrega una conclusión ejecutiva:
-
-**Best Version Detected:**
-*The Accepted Monster*
-
-**Best Possible Audience:**
-Prestige science fiction readers and streaming audiences interested in moral ambiguity, artificial life, social rejection, and systems of power.
-
-**Why this version wins:**
-Because it transforms Frankenstein from a story about creation into a story about recognition.
+# 7. CORE UX STRUCTURE
 
 ---
 
-# 8. Pantallas del MVP
+# HOME SCREEN
 
-## Pantalla 1 — Hero / Landing
+Hero Title:
+Transform Stories Across Generations
 
-Elementos:
+Subtitle:
+Create alternate realities, illustrated children editions, emotional adaptations, and audience-optimized narrative universes.
 
-* Logo byDebut
-* Frase fundacional
-* Botón “Start Transformation”
-* Visual oscuro, elegante, tipo cinematic tech.
+Primary Buttons:
 
----
+* Transform a Story
+* Create Children Version
+* Explore Public Domain
+* Expand Narrative Universe
 
-## Pantalla 2 — Choose Story
+Background:
 
-Cards con obras de dominio público.
-
-Cada card:
-
-* título,
-* año,
-* género,
-* potencial de transformación,
-* botón “Transform”.
+* cinematic branching narratives,
+* glowing story constellations,
+* adaptive audience pathways.
 
 ---
 
-## Pantalla 3 — Structural Analysis
+# 8. STORY INPUT FLOW
 
-Paneles:
+## User selects:
 
-* Story DNA
-* Characters
-* Conflict
-* Moral System
-* Narrative Chokepoints
-* Critical Variables
+### A. Story Source
 
----
-
-## Pantalla 4 — Variable Selection
-
-El usuario selecciona una variable o deja que Gemini recomiende.
-
-Botones:
-
-* “Let Gemini choose the strongest variable”
-* “Select manually”
+* Public Domain
+* Original Story
+* Upload Text
+* Paste Premise
 
 ---
 
-## Pantalla 5 — Variation Generation
+### B. Transformation Type
 
-Cards de variaciones generadas.
-
-Cada card:
-
-* título,
-* logline,
-* cambio principal,
-* consecuencia,
-* audiencia tentativa.
+* Narrative Fork
+* Audience Adaptation
+* Illustrated Version
+* Educational Version
+* Family Edition
+* Emotional Simplification
 
 ---
 
-## Pantalla 6 — Forking Map
+### C. Audience Type
 
-Visualización tipo árbol.
-
-Debe ser la pantalla más impactante.
-
----
-
-## Pantalla 7 — Ranking Dashboard
-
-Tabla + scores + explicación.
-
----
-
-## Pantalla 8 — Audience Discovery
-
-Mapa de audiencias.
-
-Debe mostrar:
-
-* audiencia primaria,
-* audiencia secundaria,
-* emoción dominante,
-* potencial de propagación,
-* formato ideal.
+* Ages 4–6
+* Ages 7–9
+* Ages 10–12
+* Teen
+* Young Adult
+* Adult
+* Family
+* Educational
 
 ---
 
-## Pantalla 9 — Narrative Optimization
+### D. Style
 
-Recomendaciones de mejora.
-
----
-
-## Pantalla 10 — Export / Pitch Summary
-
-Botón:
-
-**Generate Pitch Brief**
-
-Salida:
-
-* título recomendado,
-* logline,
-* audiencia ideal,
-* scores,
-* razón estratégica,
-* potencial de adaptación.
+* Storybook
+* Disney-like Warmth
+* Pixar-style Emotional Arc
+* Cinematic
+* Educational Illustrated
+* Minimalist
+* Adventure
+* Bedtime Story
 
 ---
 
-# 9. Funcionalidades reales vs simuladas
+### E. Book Settings
 
-## Funcionalidades reales para hackathon
-
-* Selección de historia.
-* Prompt a Gemini.
-* Análisis estructural.
-* Generación de variables.
-* Generación de variaciones.
-* Ranking textual.
-* Recomendación de audiencia.
-* Resumen final.
-
-## Funcionalidades simuladas elegantemente
-
-* Validación colectiva real.
-* Scores cuantitativos.
-* Datos reales de audiencia.
-* Market validation masiva.
-* Comunidad de votación.
-* Histórico de forks.
-* Métricas comerciales reales.
-
-Debe aclararse en demo:
-
-> In this MVP, collective validation and market scoring are simulated as prototype intelligence layers. The full product would integrate real user feedback, audience testing, and behavioral data.
+* page count,
+* chapter length,
+* vocabulary complexity,
+* emotional intensity,
+* illustration density.
 
 ---
 
-# 10. Arquitectura recomendada
+# 9. CHILDREN ADAPTATION ENGINE
 
-## Frontend
+IMPORTANT:
+This is now a FIRST-LINE FEATURE.
 
+The MVP must make this visually prominent.
+
+---
+
+# Core Capabilities
+
+## Age Scaling
+
+Adjust:
+
+* vocabulary,
+* sentence structure,
+* emotional complexity,
+* pacing,
+* thematic intensity.
+
+---
+
+## Emotional Scaling
+
+Adjust:
+
+* suspense,
+* darkness,
+* violence,
+* romance,
+* philosophical complexity.
+
+---
+
+## Educational Adaptation
+
+Generate:
+
+* learning-oriented structure,
+* explanatory simplifications,
+* educational framing,
+* emotionally safe transformation.
+
+---
+
+## Illustration Guidance
+
+The MVP should simulate:
+
+* children’s book layouts,
+* illustration placeholders,
+* visual mood previews,
+* cinematic children-page mockups.
+
+IMPORTANT:
+Real illustration generation is NOT required for MVP.
+
+Use:
+
+* mock illustrations,
+* concept-art placeholders,
+* cinematic visual previews.
+
+---
+
+# 10. ILLUSTRATED STORY MODE
+
+## Feature Name
+
+Illustrated Narrative Transformation
+
+Capabilities:
+
+* page layout previews,
+* visual storytelling mockups,
+* illustration style previews,
+* emotional visual tone.
+
+Visual Styles:
+
+* watercolor,
+* storybook,
+* cinematic animation,
+* Disney-inspired warmth,
+* dark fantasy,
+* educational illustration,
+* graphic novel.
+
+---
+
+# 11. FAMILY NARRATIVE MODE
+
+## Concept
+
+Parents can transform:
+
+* adult novels,
+  into:
+* family-friendly,
+* educational,
+* or illustrated children editions.
+
+Hero Statement:
+One Story. Infinite Generations.
+
+IMPORTANT:
+This is emotionally powerful.
+The judges must SEE this clearly.
+
+---
+
+# 12. PUBLIC DOMAIN EXPANSION MODE
+
+The MVP must prominently showcase:
+
+## Examples
+
+* Frankenstein
+* Dracula
+* Sherlock Holmes
+* Alice in Wonderland
+
+Transformations:
+
+* children versions,
+* educational adaptations,
+* alternate emotional arcs,
+* illustrated editions,
+* simplified editions.
+
+IMPORTANT:
+This demonstrates:
+infinite publishing scalability.
+
+---
+
+# 13. NARRATIVE INTELLIGENCE LAYER
+
+The MVP should visually simulate:
+
+## Audience Resonance
+
+Who is most likely to emotionally connect.
+
+---
+
+## Emotional Structure Analysis
+
+Detect:
+
+* tension,
+* warmth,
+* tragedy,
+* hope,
+* suspense,
+* educational value.
+
+---
+
+## Franchise Potential
+
+Suggest:
+
+* sequels,
+* alternate versions,
+* universe expansion.
+
+---
+
+# 14. GEMINI AI POSITIONING
+
+The MVP must clearly explain:
+
+Gemini powers:
+
+* narrative understanding,
+* emotional adaptation,
+* audience transformation,
+* story simplification,
+* narrative branching,
+* and adaptive storytelling.
+
+IMPORTANT:
+Avoid technical overload.
+
+Focus on:
+
+* intelligence,
+* imagination,
+* emotional adaptation.
+
+---
+
+# 15. VISUAL DESIGN DIRECTION
+
+The platform MUST feel:
+
+* cinematic,
+* elegant,
+* literary,
+* emotionally intelligent,
+* premium,
+* future-facing.
+
+NOT:
+
+* SaaS dashboard,
+* chatbot,
+* generic AI app,
+* productivity software.
+
+---
+
+# 16. HACKATHON PRIORITIES
+
+Optimize for:
+
+* emotional impact,
+* conceptual clarity,
+* visual wow moments,
+* audience memorability,
+* and category creation.
+
+NOT:
+
+* production-scale infrastructure,
+* enterprise backend,
+* or complex architecture.
+
+---
+
+# 17. REQUIRED MVP SCREENS
+
+## MUST INCLUDE
+
+### A. Landing Page
+
+### B. Story Transformation Flow
+
+### C. Audience Adaptation Flow
+
+### D. Children Version Flow
+
+### E. Illustrated Preview Flow
+
+### F. Narrative Forking Visualization
+
+### G. Audience Resonance Screen
+
+### H. Demo Presentation Mode
+
+### I. Final Vision Screen
+
+---
+
+# 18. HACKATHON WOW MOMENTS
+
+## WOW MOMENT 1
+
+Frankenstein
+→ transformed live.
+
+---
+
+## WOW MOMENT 2
+
+Adult novel
+→ children illustrated adaptation.
+
+---
+
+## WOW MOMENT 3
+
+Audience resonance visualization.
+
+---
+
+## WOW MOMENT 4
+
+Narrative branching universes.
+
+---
+
+## WOW MOMENT 5
+
+“One Story. Infinite Audiences.”
+
+---
+
+# 19. AMAZON STRATEGIC POSITIONING
+
+IMPORTANT:
+The product should subtly suggest future compatibility with:
+
+* Amazon KDP
+* Kindle Kids
+* Audible
+* Prime Video
+* Educational Publishing
+* Public Domain Publishing Expansion
+
+WITHOUT explicitly claiming partnerships.
+
+---
+
+# 20. LONG-TERM PRODUCT CATEGORY
+
+byDebut is positioned as:
+
+# Adaptive Narrative Publishing Infrastructure
+
+NOT:
+
+* AI writing tool,
+* chatbot,
+* or content generator.
+
+---
+
+# 21. MVP LIMITATIONS
+
+DO NOT BUILD:
+
+* real publishing systems,
+* marketplace,
+* social network,
+* real-time collaboration,
+* production infrastructure,
+* advanced backend architecture.
+
+FAKE elegantly where needed.
+
+---
+
+# 22. RECOMMENDED TECH STACK
+
+Frontend:
+
+* Lovable
 * React
-* Vite
 * Tailwind
 * Framer Motion
-* Recharts o D3 para visualización
-* Cards premium
-* Dark cinematic UI
 
-## Backend
+AI:
 
-* Node.js / Express
-* API route para Gemini
-* Prompt orchestration layer
-* JSON schema parser
-* Temporary session memory
+* Gemini API
 
-## AI Layer
+Visuals:
 
-Gemini debe encargarse de:
+* cinematic gradients,
+* narrative particles,
+* branching constellations,
+* story ecosystem animations.
 
-* Structural analysis
-* Variable extraction
-* Variation generation
-* Audience discovery
-* Narrative optimization
-* Pitch summary
+Deployment:
 
-## Data
-
-Para MVP:
-
-* Public domain sample stories preloaded.
-* Metadata básica.
-* Prompts internos.
-* Resultados guardados temporalmente.
+* Vercel
 
 ---
 
-# 11. Gemini Prompt Chain
+# 23. FINAL PRODUCT GOAL
 
-## Prompt 1 — Structural Analysis
+At the end of the demo, judges should feel:
 
-Input:
+“This is not just AI storytelling.”
 
-* título,
-* resumen,
-* texto base o sinopsis.
+“This is the future of adaptive publishing and multi-generational narrative transformation.”
 
-Output:
+And ideally:
 
-* estructura,
-* personajes,
-* conflicto,
-* variables críticas.
-
-## Prompt 2 — Variable Transformation
-
-Input:
-
-* structural profile.
-
-Output:
-
-* 5 variables transformables,
-* impacto probable,
-* nivel de riesgo,
-* potencial narrativo.
-
-## Prompt 3 — Variation Generation
-
-Input:
-
-* historia base,
-* variable seleccionada.
-
-Output:
-
-* 3 a 5 variaciones completas.
-
-## Prompt 4 — Ranking
-
-Input:
-
-* variaciones.
-
-Output:
-
-* scores,
-* explicación,
-* comparación.
-
-## Prompt 5 — Audience Discovery
-
-Input:
-
-* variaciones rankeadas.
-
-Output:
-
-* audiencia ideal,
-* audiencia secundaria,
-* resonancia emocional,
-* potencial cultural.
-
-## Prompt 6 — Final Pitch
-
-Input:
-
-* versión ganadora.
-
-Output:
-
-* pitch brief completo.
-
----
-
-# 12. Modelo de datos básico
-
-```json
-{
-  "story": {
-    "id": "frankenstein",
-    "title": "Frankenstein",
-    "author": "Mary Shelley",
-    "publicDomain": true,
-    "summary": ""
-  },
-  "structuralProfile": {
-    "centralConflict": "",
-    "characters": [],
-    "moralSystem": "",
-    "narrativeChokepoints": [],
-    "criticalVariables": []
-  },
-  "variation": {
-    "id": "",
-    "title": "",
-    "changedVariable": "",
-    "logline": "",
-    "premise": "",
-    "systemicConsequence": "",
-    "audience": "",
-    "scores": {
-      "emotional": 0,
-      "commercial": 0,
-      "philosophical": 0,
-      "cultural": 0,
-      "adaptation": 0
-    }
-  }
-}
-```
-
----
-
-# 13. Criterios de éxito del MVP
-
-El MVP será exitoso si los jueces entienden:
-
-1. Qué hace byDebut.
-2. Por qué es diferente.
-3. Cómo transforma historias.
-4. Por qué usa obras de dominio público.
-5. Cómo encuentra nuevas versiones.
-6. Cómo identifica audiencias.
-7. Cómo reduce riesgo para creadores y productores.
-8. Cómo puede escalar a cine, streaming y publishing.
-
----
-
-# 14. Demo ideal de 3 minutos
-
-## Minuto 1
-
-Mostrar landing y seleccionar *Frankenstein*.
-
-Mensaje:
-
-> We are not generating random stories. We are transforming narrative systems.
-
-## Minuto 2
-
-Mostrar variables críticas y generar variaciones.
-
-Mensaje:
-
-> One changed variable creates a new emotional, philosophical and commercial universe.
-
-## Minuto 3
-
-Mostrar ranking, audience discovery y pitch brief.
-
-Mensaje:
-
-> byDebut does not only create versions. It finds the version with the strongest audience connection.
-
----
-
-# 15. Roadmap posterior al hackathon
-
-## Fase 1 — MVP Hackathon
-
-* Public domain transformation.
-* Variations.
-* Ranking.
-* Audience discovery.
-* Pitch brief.
-
-## Fase 2 — User Accounts
-
-* Guardar proyectos.
-* Comparar forks.
-* Historial narrativo.
-
-## Fase 3 — Community Validation
-
-* Votación real.
-* Feedback de lectores.
-* Ranking colectivo.
-
-## Fase 4 — Creator Marketplace
-
-* Historias disponibles para fork.
-* Colaboración creativa.
-* Comunidades narrativas.
-
-## Fase 5 — Industry Layer
-
-* Pitch export para productores.
-* Dashboard para editoriales.
-* Audience intelligence.
-* Adaptation scoring.
-
----
-
-# 16. Mensaje final para el equipo del hackathon
-
-byDebut debe presentarse como:
-
-> A new narrative intelligence platform that transforms stories, explores alternatives, discovers the best audience, and helps creators identify the most powerful version of an idea before investing years and millions into the wrong one.
-
-Ese es el corazón del MVP.
+“This could become a real Amazon-level publishing feature.”
