@@ -1,56 +1,65 @@
-# STEP 7 — Build Audience Discovery Experience
+# STEP 7 — Build Audience Discovery and Publishing Intelligence
 
 IMPORTANT FOR LOVABLE:
 
-Audience Discovery is conceptual demo functionality.
+This screen demonstrates:
+AI-assisted publishing intelligence.
 
 DO NOT:
 
 * build real analytics systems,
-* create recommendation engines,
-* implement machine learning infrastructure,
-* or connect to external audience data.
+* implement recommendation engines,
+* or connect external audience data.
 
-This is ONLY a cinematic MVP simulation.
+This is:
+a cinematic AI-native publishing simulation.
 
 ---
 
-Create:
+Create screen:
 Audience Discovery
 
 Hero Statement:
 The goal is not the largest audience. The goal is the truest audience.
 
+---
+
+Use Gemini API to generate:
+
+* emotional resonance,
+* educational compatibility,
+* family appeal,
+* adaptation potential,
+* publishing opportunity indicators.
+
+---
+
 Display:
 
-* Emotional Resonance
-* Educational Value
-* Family Appeal
-* Publishing Potential
-* Visual Adaptation Potential
+* cinematic audience cards,
+* glowing emotional indicators,
+* resonance visuals,
+* adaptation opportunity scoring.
 
-Create elegant visual scoring systems:
+---
 
-* glowing resonance rings,
-* cinematic progress bars,
-* emotional indicators,
-* audience compatibility visuals.
-
-Display example audience cards only.
-
-Then create:
+Create:
 Narrative Optimization Recommendations
 
 Examples:
 
 * simplify vocabulary,
-* preserve wonder,
-* deepen emotional complexity,
-* strengthen educational clarity.
+* increase educational clarity,
+* preserve emotional warmth,
+* reduce fear,
+* deepen emotional complexity.
 
-Add:
-Generate Pitch Brief button.
+---
+
+Add button:
+Generate Publishing Brief
 
 IMPORTANT:
-This is ONLY:
-a visual and conceptual demonstration layer.
+This screen should make judges feel:
+
+“This could become real adaptive publishing infrastructure.”
