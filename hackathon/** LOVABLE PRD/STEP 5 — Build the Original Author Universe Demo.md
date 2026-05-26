@@ -1,67 +1,78 @@
-# STEP 5 — Build Generic Original Author Universe Demo
+# STEP 5 — Build Original Author Adaptive Publishing Demo
 
 IMPORTANT FOR LOVABLE:
 
-This section demonstrates how the platform works for ANY original author.
+This is ONLY demonstration content.
 
 DO NOT:
 
 * optimize for one specific novel,
-* build franchise-specific architecture,
-* create hardcoded geopolitical systems,
-* or create custom lore engines.
+* build geopolitical lore systems,
+* create franchise infrastructure,
+* or hardcode narrative universes.
 
-This is ONLY a reusable demo structure.
-
-The demo content below is placeholder narrative material.
+This demonstrates:
+how ANY original book could be adapted for new audiences.
 
 ---
 
-Create a cinematic dashboard called:
+Create screen:
 Original Author Universe Demo
 
-The example content should represent:
-a fictional geopolitical thriller universe.
+Use:
+Original Geopolitical Thriller Universe
 
-Display sections:
+Display:
 
-1. Core Conflict
-2. Emotional Engine
-3. Narrative Tension
-4. Geopolitical Context
-5. Adaptation Potential
+* emotional tension,
+* audience complexity,
+* adaptation opportunities,
+* educational adaptation potential.
 
-Add:
-Generate Narrative Forks
+---
 
-Generate cinematic fork cards such as:
+Create sections:
 
-* alternate endings,
-* alternate alliances,
-* alternate emotional outcomes,
-* alternate geopolitical escalations.
+# Core Conflict
 
-Then add:
-Create Children / Family Version
+# Emotional Engine
 
-Generate a children educational adaptation example.
+# Narrative Tension
+
+# Educational Adaptation Potential
+
+# Audience Expansion Potential
+
+---
+
+Generate:
+Children Educational Version
+
+Example:
+The Oceans That Connected the World
+
+Premise:
+A young explorer discovers how oceans and narrow passages connect food, ships, energy, and people across the world.
+
+Audience:
+Ages 7–10
 
 Tone:
 
 * educational,
-* adventurous,
 * warm,
+* adventurous,
 * hopeful.
+
+---
 
 Display:
 
-* illustrated mock cover,
-* children layout preview,
-* audience compatibility.
+* cinematic mock cover,
+* children page previews,
+* educational themes,
+* audience compatibility indicators.
 
 IMPORTANT:
-This is ONLY demonstrating:
-how original authors could adapt their stories for multiple audiences.
-
-This is NOT:
-a custom platform for one specific book.
+This screen exists ONLY to demonstrate:
+AI-native adaptive publishing for original authors.
