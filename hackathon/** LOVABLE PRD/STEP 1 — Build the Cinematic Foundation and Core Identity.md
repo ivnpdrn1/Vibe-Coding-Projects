@@ -1,37 +1,33 @@
-# STEP 1 — Build the Cinematic Foundation and Core Product Identity
+# STEP 1 — Build the Cinematic Landing Page and Core Identity
 
 IMPORTANT FOR LOVABLE:
 
-The story names used in this MVP are ONLY DEMO CONTENT to showcase the platform capabilities.
+This MVP is a focused Gemini Hackathon prototype.
 
-DO NOT build:
+DO NOT:
 
-* story-specific logic,
-* franchise systems,
-* lore engines,
-* custom narrative databases,
-* or hardcoded story architectures.
+* build production infrastructure,
+* build marketplace systems,
+* build subscriptions,
+* build social features,
+* build real publishing pipelines,
+* or create complex backend systems.
 
-The product being built is:
+The objective is:
+a cinematic demonstration of AI-native adaptive publishing.
 
-# a generic adaptive narrative publishing platform.
+The stories used are ONLY DEMO CONTENT.
 
-The examples are ONLY demonstrations.
+The platform must remain:
 
-The platform MUST remain:
-
-* modular,
+* generic,
 * reusable,
-* scalable,
+* modular,
 * and story-agnostic.
-
-DO NOT optimize the app specifically for Frankenstein or any specific novel.
-
-They are placeholders for demonstration purposes only.
 
 ---
 
-Build the initial byDebut MVP interface for the Gemini Hackathon.
+Build the initial byDebut interface.
 
 Product Name:
 byDebut
@@ -39,47 +35,52 @@ byDebut
 Tagline:
 One Story. Infinite Audiences.
 
-Core positioning:
-Adaptive Narrative Publishing Platform
+Core Positioning:
+AI-Native Adaptive Publishing Platform
 
-IMPORTANT:
+---
+
+VISUAL STYLE
+
 The interface must feel:
 
 * cinematic,
 * premium,
-* emotionally intelligent,
 * elegant,
+* emotionally intelligent,
 * literary,
-* futuristic,
-* and visually memorable.
+* educational,
+* future-facing.
 
 DO NOT make it feel like:
 
-* a chatbot,
-* generic SaaS,
-* productivity software,
-* or a simple AI form.
+* generic AI app,
+* chatbot,
+* SaaS dashboard,
+* or productivity software.
 
 Use:
 
 * dark cinematic backgrounds,
 * glassmorphism,
 * gold/electric blue accents,
-* branching story animations,
 * floating narrative particles,
-* elegant typography,
 * smooth transitions,
-* emotional gradients.
+* branching story visuals,
+* emotional gradients,
+* elegant typography.
 
-Create:
+---
 
-1. Landing Page
+CREATE:
+
+# Landing Page
 
 Hero Title:
 Transform Stories Across Generations
 
 Subtitle:
-Create alternate realities, illustrated children editions, emotional adaptations, and audience-optimized narrative universes.
+AI-powered adaptive publishing for children editions, educational adaptations, and audience-specific storytelling.
 
 Primary Buttons:
 
@@ -89,9 +90,11 @@ Primary Buttons:
 * Discover Audiences
 
 Hero Statement:
-There is not one version of a story. There is the version that happened — and infinite versions that could happen if one variable changed.
+One story can become many audiences.
 
-2. Top Navigation
+---
+
+# Top Navigation
 
 Add:
 
@@ -102,13 +105,15 @@ Add:
 * Audience Discovery
 * Presentation Mode
 
-3. Animated Background
+---
+
+# Animated Background
 
 Create:
 
-* branching story constellations,
-* glowing narrative pathways,
+* branching narrative pathways,
 * cinematic motion,
+* glowing story constellations,
 * premium atmosphere.
 
 IMPORTANT:
@@ -118,5 +123,4 @@ Focus ONLY on:
 
 * visual identity,
 * emotional impact,
-* premium feel,
-* hackathon-ready first impression.
+* premium presentation quality.
