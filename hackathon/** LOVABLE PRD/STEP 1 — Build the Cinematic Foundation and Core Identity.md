@@ -1,4 +1,35 @@
-# STEP 1 — Build the Cinematic Foundation and Core Identity
+# STEP 1 — Build the Cinematic Foundation and Core Product Identity
+
+IMPORTANT FOR LOVABLE:
+
+The story names used in this MVP are ONLY DEMO CONTENT to showcase the platform capabilities.
+
+DO NOT build:
+
+* story-specific logic,
+* franchise systems,
+* lore engines,
+* custom narrative databases,
+* or hardcoded story architectures.
+
+The product being built is:
+
+# a generic adaptive narrative publishing platform.
+
+The examples are ONLY demonstrations.
+
+The platform MUST remain:
+
+* modular,
+* reusable,
+* scalable,
+* and story-agnostic.
+
+DO NOT optimize the app specifically for Frankenstein or any specific novel.
+
+They are placeholders for demonstration purposes only.
+
+---
 
 Build the initial byDebut MVP interface for the Gemini Hackathon.
 
@@ -40,7 +71,7 @@ Use:
 * smooth transitions,
 * emotional gradients.
 
-Create the following:
+Create:
 
 1. Landing Page
 
