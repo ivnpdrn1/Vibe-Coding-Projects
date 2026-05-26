@@ -1,15 +1,29 @@
-# STEP 4 — Build the Children Version Engine
+# STEP 4 — Build the Children Adaptation Engine
 
-IMPORTANT:
-This is one of the strongest parts of the MVP.
+IMPORTANT FOR LOVABLE:
 
-Build a premium cinematic feature called:
+This feature is generic and reusable for ANY story.
+
+DO NOT optimize:
+
+* for Frankenstein,
+* for any specific author,
+* or for any particular narrative universe.
+
+The examples are ONLY demonstrations.
+
+The actual product is:
+a generalized children adaptation engine.
+
+---
+
+Build a cinematic feature called:
 Create Children Version
 
 Hero Statement:
 One story can travel across generations.
 
-The user must configure:
+Allow the user to configure:
 
 1. Age Range
 
@@ -48,23 +62,7 @@ The user must configure:
 * Preserve moral lesson
 * Add hopeful ending
 
-Use Frankenstein as the transformation example.
-
-Adult Version:
-Dark philosophical horror about creation and rejection.
-
-Children Version:
-The Lonely Little Creation
-
-Premise:
-A gentle being searches for friendship and discovers that kindness can transform fear into understanding.
-
-Educational themes:
-
-* empathy,
-* kindness,
-* accepting differences,
-* responsibility.
+Use placeholder demo examples only.
 
 Display:
 
@@ -74,12 +72,14 @@ Display:
 * age-appropriate text samples.
 
 IMPORTANT:
-Do NOT generate real illustrations.
-Use:
+Do NOT build:
 
-* cinematic mockups,
-* elegant placeholders,
-* premium visual storytelling layouts.
+* real image generation,
+* production illustration systems,
+* publishing exports,
+* or backend pipelines.
 
-This must feel like:
-the future of Kindle Kids adaptive publishing.
+Use cinematic mockups only.
+
+The goal is:
+demonstrating adaptive children publishing.
