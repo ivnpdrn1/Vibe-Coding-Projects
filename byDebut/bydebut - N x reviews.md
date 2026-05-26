@@ -8,4 +8,3 @@ considerar:
 - bydebut/editorial/autor/book
 - evaluar la posibilidad de que los suscriptores puedan ver diferentes versiones de cualquier obra para que puedan seguir versionando
 - crear las suscripciones para productores y directores de cine, y ver las versiones, y no depender de la habilidad o gestion de los versionistas
-- 
