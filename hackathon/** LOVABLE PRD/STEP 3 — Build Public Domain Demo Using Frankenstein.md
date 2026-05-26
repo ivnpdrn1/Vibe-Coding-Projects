@@ -1,30 +1,39 @@
-# STEP 3 — Build Public Domain Demo Using Frankenstein
+# STEP 3 — Build Public Domain Demo Experience
 
-Now build the Public Domain Transformation demo.
+IMPORTANT FOR LOVABLE:
 
-Use Frankenstein as the main experience.
+This entire section is ONLY a demonstration of how adaptive transformation works.
+
+Frankenstein is being used ONLY because:
+
+* it is universally recognizable,
+* it is public domain,
+* and it clearly demonstrates narrative adaptation.
+
+DO NOT:
+
+* create hardcoded Frankenstein systems,
+* build permanent lore structures,
+* or create franchise-specific architecture.
+
+This must remain a reusable demo framework.
+
+---
+
+Create the Public Domain Transformation demo.
 
 Screen title:
-Frankenstein — Story DNA
+Public Domain Story DNA
+
+Use Frankenstein ONLY as placeholder demo content.
 
 Display cinematic sections:
 
 1. Central Conflict
-   Victor Frankenstein creates life but rejects his own creation.
-
 2. Emotional Engine
-   The desperate need for recognition from the one who created you.
-
 3. Philosophical Tension
-   Who becomes the monster: the creature or the society that refuses to recognize it?
-
 4. Narrative Chokepoints
-
-* The creation
-* The rejection
-* Isolation
-* Revenge
-* The demand for companionship
+5. Audience Potential
 
 Add button:
 Identify Critical Variables
@@ -32,44 +41,28 @@ Identify Critical Variables
 Next screen:
 Critical Variables
 
-Create cinematic cards:
+Create cinematic cards such as:
 
-1.
+* What if society accepted the monster?
+* What if the creator protected the creation?
+* What if the story became educational instead of horror?
 
-What if society accepted the monster?
-
-2.
-
-What if Victor protected the creature?
-
-3.
-
-What if the creature demanded legal recognition instead of revenge?
-
-4.
-
-What if the experiment became corporate property?
-
-Each card must display:
+Each card displays:
 
 * emotional impact,
 * audience potential,
 * adaptation potential,
-* philosophical intensity.
+* educational compatibility.
 
 Add button:
 Generate Alternate Version
 
-Generate this version:
-
-Title:
-The Accepted Monster
-
-Premise:
-A hidden community accepts the creature, forcing Victor to confront the possibility that the true monster may be civilization itself.
-
-Audience:
-Prestige philosophical sci-fi audience.
+Generate ONE cinematic alternate version card.
 
 Then add:
 Create Children Version button.
+
+IMPORTANT:
+The goal is:
+demonstrating adaptive publishing workflows,
+NOT building a Frankenstein product.
