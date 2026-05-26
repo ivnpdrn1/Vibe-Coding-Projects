@@ -2,59 +2,96 @@
 
 IMPORTANT FOR LOVABLE:
 
-This feature is generic and reusable for ANY story.
+This is the emotional centerpiece of the MVP.
 
-DO NOT optimize:
+The feature must feel:
 
-* for Frankenstein,
-* for any specific author,
-* or for any particular narrative universe.
+* emotionally powerful,
+* educationally meaningful,
+* and commercially believable.
 
-The examples are ONLY demonstrations.
-
-The actual product is:
-a generalized children adaptation engine.
+This is one of the most important screens for judges.
 
 ---
 
-Build a cinematic feature called:
+Create screen:
 Create Children Version
 
 Hero Statement:
 One story can travel across generations.
 
-Allow the user to configure:
+---
 
-1. Age Range
+Use Gemini API to generate:
+
+* simplified premise,
+* educational themes,
+* emotional adaptation,
+* age-appropriate transformation.
+
+Use Frankenstein as demo content ONLY.
+
+---
+
+Example:
+
+Original:
+Dark philosophical horror.
+
+Children Version:
+The Lonely Little Creation
+
+Premise:
+A gentle being searches for friendship and learns that kindness can transform fear into understanding.
+
+Educational Themes:
+
+* empathy,
+* kindness,
+* accepting differences,
+* responsibility.
+
+---
+
+Allow users to configure:
+
+# Age Range
 
 * Ages 4–6
 * Ages 7–9
 * Ages 10–12
 
-2. Reading Level
+---
+
+# Reading Level
 
 * Very Simple
 * Early Reader
 * Independent Reader
 
-3. Emotional Tone
+---
+
+# Emotional Tone
 
 * Warm
-* Adventurous
 * Educational
+* Adventurous
 * Magical
 * Gentle Suspense
 
-4. Illustration Style
+---
+
+# Illustration Style
 
 * Storybook
 * Watercolor
 * Disney-like warmth
 * Pixar-style emotional depth
 * Bedtime book
-* Educational illustrated
 
-5. Safety Adaptation
+---
+
+# Safety Adaptation
 
 * Reduce fear
 * Remove violence
@@ -62,24 +99,23 @@ Allow the user to configure:
 * Preserve moral lesson
 * Add hopeful ending
 
-Use placeholder demo examples only.
+---
 
 Display:
 
 * illustrated mock cover,
-* sample page previews,
-* illustration placeholders,
-* age-appropriate text samples.
+* page spread previews,
+* cinematic illustration placeholders,
+* sample children pages.
 
 IMPORTANT:
-Do NOT build:
+Do NOT generate real illustrations.
 
-* real image generation,
-* production illustration systems,
-* publishing exports,
-* or backend pipelines.
+Use:
 
-Use cinematic mockups only.
+* mock layouts,
+* cinematic placeholders,
+* premium visual simulations only.
 
-The goal is:
-demonstrating adaptive children publishing.
+This should feel like:
+the future of Kindle Kids adaptive publishing.
