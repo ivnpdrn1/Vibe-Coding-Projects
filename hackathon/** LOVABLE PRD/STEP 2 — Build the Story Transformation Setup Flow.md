@@ -1,6 +1,20 @@
-# STEP 2 — Build the Story Transformation Setup Flow
+# STEP 2 — Build the Generic Story Transformation Flow
 
-Now build the core transformation flow.
+IMPORTANT FOR LOVABLE:
+
+The examples shown in this step are ONLY illustrative demos.
+
+DO NOT:
+
+* create custom workflows for specific stories,
+* build permanent story structures,
+* create franchise-specific logic,
+* or optimize around any single narrative universe.
+
+The goal is:
+a reusable transformation engine UI.
+
+---
 
 Create a cinematic screen called:
 Transform a Story
@@ -58,21 +72,15 @@ Allow:
 * emotional intensity,
 * illustration density.
 
-Add cinematic sliders and premium card selection.
-
-Primary button:
+Primary Button:
 Generate Adaptive Version
 
 IMPORTANT:
-The screen must feel like:
-a future adaptive publishing engine,
-not a generic form.
+Do NOT integrate real AI logic yet.
 
-Use:
+The focus is:
 
-* cinematic transitions,
-* elegant interactions,
-* premium layout spacing,
-* smooth animated selection states.
-
-Do NOT integrate real AI yet.
+* cinematic UI,
+* transformation workflow,
+* adaptive publishing experience,
+* emotional presentation quality.
