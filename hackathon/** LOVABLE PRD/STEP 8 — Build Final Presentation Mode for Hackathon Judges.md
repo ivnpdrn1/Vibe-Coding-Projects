@@ -1,65 +1,124 @@
-# STEP 7 — Build Audience Discovery and Publishing Intelligence
+# STEP 8 — Build Final Presentation Mode for Hackathon Judges
 
 IMPORTANT FOR LOVABLE:
 
-This screen demonstrates:
-AI-assisted publishing intelligence.
+This entire mode exists ONLY for:
+
+* hackathon storytelling,
+* presentation quality,
+* emotional clarity,
+* and cinematic pacing.
 
 DO NOT:
 
-* build real analytics systems,
-* implement recommendation engines,
-* or connect external audience data.
+* overengineer backend systems,
+* create production architecture,
+* or implement large infrastructure.
 
-This is:
-a cinematic AI-native publishing simulation.
+Focus ONLY on:
 
----
-
-Create screen:
-Audience Discovery
-
-Hero Statement:
-The goal is not the largest audience. The goal is the truest audience.
+* visual clarity,
+* polished demo flow,
+* emotional impact,
+* and memorable presentation quality.
 
 ---
 
-Use Gemini API to generate:
+Add top-right button:
+Enter Presentation Mode
 
-* emotional resonance,
-* educational compatibility,
-* family appeal,
-* adaptation potential,
-* publishing opportunity indicators.
+When activated:
+
+* simplify navigation,
+* enlarge visuals,
+* guide flow step-by-step,
+* create cinematic transitions,
+* reduce distractions.
 
 ---
 
-Display:
+Create 3 guided demo flows:
 
-* cinematic audience cards,
-* glowing emotional indicators,
-* resonance visuals,
-* adaptation opportunity scoring.
+# FLOW A
+
+Frankenstein
+→ Narrative Analysis
+→ Children Adaptation
+→ Illustrated Preview
+→ Audience Discovery
+
+---
+
+# FLOW B
+
+Original Geopolitical Thriller
+→ Educational Adaptation
+→ Children Version
+→ Illustrated Preview
+
+---
+
+# FLOW C
+
+One Story
+→ Multiple Audiences
+→ Adult Edition
+→ Children Edition
+→ Educational Edition
 
 ---
 
 Create:
-Narrative Optimization Recommendations
+Final Vision Screen
 
-Examples:
+Title:
+AI-Native Adaptive Publishing
 
-* simplify vocabulary,
-* increase educational clarity,
-* preserve emotional warmth,
-* reduce fear,
-* deepen emotional complexity.
+Hero Statement:
+One story can become many audiences, many formats, and many generations of readers.
+
+Explain:
+byDebut demonstrates how AI can help:
+
+* adapt books for children,
+* create educational editions,
+* simplify complex narratives,
+* identify audience fit,
+* and expand publishing accessibility.
+
+Mention future compatibility vision with:
+
+* Amazon KDP
+* Kindle Kids
+* Audible
+* Prime Video
+
+DO NOT claim partnerships.
 
 ---
 
-Add button:
-Generate Publishing Brief
+Final Statement:
+byDebut is not an AI writing assistant.
+
+It is:
+
+* an adaptive publishing engine,
+* an audience transformation platform,
+* and a multi-generational storytelling system.
+
+---
 
 IMPORTANT:
-This screen should make judges feel:
+If any AI process fails,
+NEVER show raw technical errors.
 
-“This could become real adaptive publishing infrastructure.”
+Show cinematic fallback message instead:
+
+Narrative signal instability detected. Reconstructing adaptive pathways.
+
+---
+
+Final emotional goal:
+Judges should feel:
+
+“This feels like the future of publishing.”
