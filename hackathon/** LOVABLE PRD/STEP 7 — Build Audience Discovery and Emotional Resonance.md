@@ -1,57 +1,56 @@
-# STEP 7 — Build Audience Discovery and Emotional Resonance
+# STEP 7 — Build Audience Discovery Experience
 
-Now build the Audience Discovery system.
+IMPORTANT FOR LOVABLE:
 
-Title:
+Audience Discovery is conceptual demo functionality.
+
+DO NOT:
+
+* build real analytics systems,
+* create recommendation engines,
+* implement machine learning infrastructure,
+* or connect to external audience data.
+
+This is ONLY a cinematic MVP simulation.
+
+---
+
+Create:
 Audience Discovery
 
 Hero Statement:
 The goal is not the largest audience. The goal is the truest audience.
 
-For every generated version display:
+Display:
 
 * Emotional Resonance
-* Family Appeal
 * Educational Value
-* Visual Adaptation Potential
+* Family Appeal
 * Publishing Potential
+* Visual Adaptation Potential
 
-Create audience cards.
+Create elegant visual scoring systems:
 
-Example:
-The Lonely Little Creation
-
-Best Audience:
-Children ages 7–9 and parents seeking emotionally intelligent stories about empathy and kindness.
-
-Example:
-The Oceans That Connected the World
-
-Best Audience:
-Children, parents, educators, and families interested in geography, cooperation, and global connection.
-
-Add elegant visual scoring systems:
-
+* glowing resonance rings,
 * cinematic progress bars,
-* glowing audience rings,
-* emotional resonance indicators.
+* emotional indicators,
+* audience compatibility visuals.
+
+Display example audience cards only.
 
 Then create:
 Narrative Optimization Recommendations
 
-Children version recommendations:
+Examples:
 
 * simplify vocabulary,
 * preserve wonder,
-* reduce fear,
-* emphasize empathy,
-* increase visual moments.
+* deepen emotional complexity,
+* strengthen educational clarity.
 
-Adult version recommendations:
+Add:
+Generate Pitch Brief button.
 
-* deepen moral tension,
-* increase psychological complexity,
-* strengthen audience specificity.
-
-Add button:
-Generate Pitch Brief
+IMPORTANT:
+This is ONLY:
+a visual and conceptual demonstration layer.
