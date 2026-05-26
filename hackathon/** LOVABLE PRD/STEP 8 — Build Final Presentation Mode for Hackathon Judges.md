@@ -1,7 +1,29 @@
-# STEP 8 — Build Final Presentation Mode for Hackathon Judges
+# STEP 8 — Build Final Presentation Mode for Hackathon Demo
 
-IMPORTANT:
-This is the final and most important hackathon layer.
+IMPORTANT FOR LOVABLE:
+
+This entire Presentation Mode exists ONLY for:
+
+* hackathon presentation quality,
+* storytelling clarity,
+* cinematic pacing,
+* and judge experience.
+
+DO NOT:
+
+* overengineer infrastructure,
+* build production systems,
+* create full publishing architecture,
+* or implement advanced backend logic.
+
+Focus ONLY on:
+
+* visual flow,
+* emotional clarity,
+* polished transitions,
+* and memorable demo experience.
+
+---
 
 Add top-right button:
 Enter Presentation Mode
@@ -11,37 +33,35 @@ When activated:
 * simplify navigation,
 * enlarge visuals,
 * create cinematic transitions,
-* guide the flow step-by-step,
 * reduce distractions,
-* make everything presentation-ready.
+* guide demo flow step-by-step.
 
 Create 3 guided demo flows:
 
 DEMO FLOW A
-Frankenstein
+Public Domain Story
 → Story DNA
-→ Critical Variable
-→ Alternate Version
+→ Narrative Fork
 → Children Version
 → Illustrated Preview
 → Audience Discovery
 
 DEMO FLOW B
-LAS GARGANTAS DEL DIABLO
-→ Narrative Fork
-→ Children Educational Version
+Original Author Universe
+→ Alternate Version
+→ Family Adaptation
 → Illustrated Preview
 → Audience Discovery
 
 DEMO FLOW C
 One Story
-→ Many Audiences
+→ Multiple Audiences
 → Adult Edition
 → Children Edition
-→ Family Edition
 → Educational Edition
 
-Then create the Final Vision Screen.
+Then create:
+Final Vision Screen
 
 Title:
 Adaptive Narrative Publishing
@@ -50,13 +70,13 @@ Hero Statement:
 One story can become many audiences, many formats, and many generations of readers.
 
 Explain:
-byDebut demonstrates how books can evolve into:
+byDebut demonstrates:
 
-* alternate realities,
-* illustrated children editions,
-* family adaptations,
-* educational experiences,
-* and audience-optimized publishing opportunities.
+* alternate story versions,
+* children adaptations,
+* educational editions,
+* audience optimization,
+* and future adaptive publishing possibilities.
 
 Mention future compatibility vision with:
 
@@ -76,17 +96,11 @@ It is:
 * an adaptive publishing layer,
 * and a multi-generational narrative platform.
 
-Final Buttons:
-
-* Transform a Story
-* Create Children Version
-* Explore the Future of Publishing
-
 IMPORTANT:
-If any AI generation fails,
-NEVER show raw errors.
+If anything fails,
+show cinematic fallback messaging instead of technical errors.
 
-Show cinematic fallback message:
+Fallback message:
 Narrative signal instability detected. Reconstructing alternate pathways.
 
 Final emotional goal:
