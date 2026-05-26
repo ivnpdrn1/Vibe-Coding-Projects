@@ -1,50 +1,38 @@
-# STEP 6 — Build Illustrated Book Preview Experience
+# STEP 6 — Build Illustrated Preview Experience
 
-Now create the Illustrated Preview experience.
+IMPORTANT FOR LOVABLE:
 
-This screen must simulate:
-future adaptive publishing and Kindle Kids experiences.
+This is ONLY a visual simulation layer.
 
-Title:
+DO NOT:
+
+* build real publishing systems,
+* create export pipelines,
+* generate real books,
+* or implement KDP integrations.
+
+This screen only demonstrates:
+future adaptive publishing possibilities.
+
+---
+
+Create:
 Illustrated Version Preview
 
 Display:
 
 1. Book Cover Preview
-
-* title
-* subtitle
-* age range
-* illustration style
-* source story
-
 2. Page Spread Preview
+3. Illustration Placeholders
+4. Reading Time
+5. Reading Complexity
+6. Emotional Tone
+7. Audience Type
 
-Create:
+Show:
+sample cinematic mock pages.
 
-* left page illustration placeholder
-* right page adapted text
-
-3. Book Metadata
-
-* page count
-* reading time
-* reading complexity
-* illustration density
-* emotional tone
-
-4. Sample Pages
-
-Use:
-The Oceans That Connected the World
-
-Page Example:
-“Oceans were not empty spaces. They were bridges between people.”
-
-Illustration Note:
-A child watching ships crossing glowing blue water at sunrise.
-
-5. Export Simulation Buttons
+Add buttons:
 
 * Generate Full Outline
 * Generate Illustrated Layout
@@ -52,7 +40,9 @@ A child watching ships crossing glowing blue water at sunrise.
 * Save Adaptive Version
 
 IMPORTANT:
-Do NOT create real exports.
+These buttons are visual demo simulations only.
+
+No backend publishing logic required.
 
 The goal is:
-a polished cinematic simulation of adaptive publishing workflows.
+a premium cinematic adaptive publishing experience for hackathon judges.
